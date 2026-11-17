@@ -72,6 +72,11 @@ if [ -f "$new_preferences.plist" ]; then
 fi
 
 /usr/bin/defaults import "$new_preferences" "$backup/source.plist"
+# Import merges keys. An absent source language key means System Default, so it must
+# also be absent at the destination rather than retaining a destination-only override.
+if ! /usr/libexec/PlistBuddy -c 'Print :AppleLanguages' "$backup/source.plist" >/dev/null 2>&1; then
+    /usr/bin/defaults delete "$new_preferences" AppleLanguages >/dev/null 2>&1 || true
+fi
 # A one-time relaunch request from an earlier process must not carry into this upgrade.
 /usr/bin/defaults delete "$new_preferences" reopenSettingsAfterLanguageChange >/dev/null 2>&1 || true
 /usr/bin/plutil -lint "$new_preferences.plist" >/dev/null
