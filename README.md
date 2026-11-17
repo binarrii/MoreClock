@@ -20,8 +20,6 @@ Extra clocks for the macOS menu bar, one menu bar item per time zone.
 - Localized into English, Simplified and Traditional Chinese, Japanese, Korean, German, French, Spanish, Italian, Brazilian Portuguese, Russian, Arabic and Persian, including right-to-left layout for Arabic and Persian.
 - Launch at login through `SMAppService`.
 
-See [ANALYSIS.md](ANALYSIS.md) for the research behind the design.
-
 ## Requirements
 
 - macOS 26 or later
@@ -51,6 +49,20 @@ open build/DerivedData/Build/Products/Debug/MoreClock.app
 The app has no Dock icon. On first launch it opens Settings. Open the app again from Finder or Spotlight to show Settings at any time, which is the way back if every clock is hidden.
 
 If a clock doesn't appear, the notch or other items may be covering it, or macOS may be hiding it. Check **System Settings › Menu Bar** (on macOS 26).
+
+## Upgrading from v0.1.0
+
+Version 0.1.1 uses the Skyviiew application identity. macOS therefore gives it a separate preferences domain and sandbox container.
+
+To keep your clocks and app language, keep a copy of the previous MoreClock app before replacing it. Quit all copies of MoreClock, then run the settings-transfer helper with the previous app and the new app as arguments:
+
+```bash
+bash Scripts/migrate-settings.sh "/path/to/previous/MoreClock.app" "/Applications/MoreClock.app"
+```
+
+The DMG also includes this helper as `Migrate Settings.sh`. It initializes the new container through macOS, backs up preferences inside the previous app’s private data, and copies settings without deleting the previous preferences. It refuses to overwrite different clocks already configured in the new app. If the app was already replaced, the previous release’s mounted DMG can supply the previous app path.
+
+Enable Launch at login again if you used it. Existing Shortcuts may need to be updated to use the new app identity.
 
 ## Tests
 
@@ -108,6 +120,7 @@ Design/AppIcon/             Icon layer generator (layers.swift), render + previe
 
 ## Before shipping
 
-- **Bundle id and signing:** change the placeholder `com.example.MoreClock` in `project.yml`. Replace the ad-hoc signing (`CODE_SIGN_IDENTITY: "-"`) with your `DEVELOPMENT_TEAM` and `CODE_SIGN_STYLE: Automatic`.
+- **Application identity:** the bundle identifier is `com.skyviiew.MoreClock`, configured in `project.yml`. Preferences, sandbox storage, App Intents, and per-app language settings use this identity.
+- **Signing:** local and GitHub builds use ad-hoc signing (`CODE_SIGN_IDENTITY: "-"`). Developer ID signing and Apple notarization require the appropriate signing certificate and credentials.
 - **Place search:** the app is sandboxed without `com.apple.security.network.client`. Check that place search works in a signed build. If it doesn't, add that entitlement in `project.yml`.
 - **Translations:** a native speaker should review them before release. They were machine-drafted and machine-reviewed.

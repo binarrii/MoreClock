@@ -281,7 +281,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MoreClock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyviiew.MoreClock;
 				PRODUCT_NAME = MoreClock;
 				SDKROOT = macosx;
 				SWIFT_STRICT_CONCURRENCY = complete;
@@ -302,7 +302,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MoreClock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyviiew.MoreClock;
 				PRODUCT_NAME = MoreClock;
 				SDKROOT = macosx;
 				SWIFT_STRICT_CONCURRENCY = complete;

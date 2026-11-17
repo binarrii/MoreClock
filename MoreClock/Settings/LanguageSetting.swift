@@ -17,7 +17,7 @@ struct LanguageSetting: View {
         let supported = [development] + bundle.localizations
             .filter { $0 != "Base" && $0 != development }.sorted()
         _preferences = State(initialValue: AppLanguagePreferences(
-            domainName: bundle.bundleIdentifier ?? "com.example.MoreClock",
+            domainName: bundle.bundleIdentifier ?? "com.skyviiew.MoreClock",
             supportedLanguages: supported
         ))
         runningLanguage = bundle.preferredLocalizations.first ?? development
