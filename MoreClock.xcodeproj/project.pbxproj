@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137BA69512DA5AD52700D257 /* LaunchAtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F8CD8D0815BA484AAB046 /* LaunchAtLogin.swift */; };
+		13D69C93C228ED6BF258E524 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EA74D1DB2AC03D0ABA2212 /* main.swift */; };
+		14140BC04982B341EE076069 /* ClockIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A9EFDB55033DC98A4123AC /* ClockIntents.swift */; };
+		29F511FB0A1539244695AA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DCD0D7382F91B48DF52438 /* AppDelegate.swift */; };
+		385E99B1495D5910F0214E80 /* TimeZonePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29493D70A89ACCABD11FD8C0 /* TimeZonePicker.swift */; };
+		3E0BA6C4E625C7AC83F3DD49 /* MenuBarTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB60345B7E83D1F3EA6F6B5 /* MenuBarTitleStyle.swift */; };
+		4943D984AEAEF6550677C587 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = B754A93BA6AAFA7ABE34AE6B /* AppIcon.icon */; };
+		65AAC9377C7B38491B2CAF19 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EE6425DD3979265A4C973E8E /* Localizable.xcstrings */; };
+		690C28C817EF1BC32AE0AD52 /* MoreClockKit in Frameworks */ = {isa = PBXBuildFile; productRef = 86450CA3B7E42EE3F2A2D87F /* MoreClockKit */; };
+		8351E35EC46856FFC2845D68 /* ClockTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57285B8752A33299436947A0 /* ClockTicker.swift */; };
+		918878A2EFBB6D39DF4318A3 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BD866E214451105426FFC /* SettingsWindowController.swift */; };
+		A66E476347A3750B17D347DA /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 33D07D392F41AC47AFF23077 /* AppShortcuts.xcstrings */; };
+		B031FD3E49D4E95B608A0664 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B702DFEFFEFDAFCFCB92EA0 /* MainMenu.swift */; };
+		BCC5D1E3014AFEDAA032E43E /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6CDA5FB585336A09FAE9C1 /* StatusItemController.swift */; };
+		BE1C2B318CA3159BB174AF39 /* LayoutDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F5DB113DA678B557039412 /* LayoutDirection.swift */; };
+		C86D9F5785962F10BD168338 /* LocationSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB23A46F1BF1C2313DBB90 /* LocationSearchService.swift */; };
+		F6813E21BEE3F7E1B0FF138B /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F41B4F1A7610D589FA876A6 /* SettingsScreen.swift */; };
+		F7BD3F4D91A4CE1BD915A6CA /* LanguageSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6015CB734F45E56250DB40D /* LanguageSetting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A6CDA5FB585336A09FAE9C1 /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
+		18877BA41A53D4382788EA9F /* MoreClockKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MoreClockKit; path = Packages/MoreClockKit; sourceTree = SOURCE_ROOT; };
+		29493D70A89ACCABD11FD8C0 /* TimeZonePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZonePicker.swift; sourceTree = "<group>"; };
+		30EA74D1DB2AC03D0ABA2212 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		33D07D392F41AC47AFF23077 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		56F5DB113DA678B557039412 /* LayoutDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutDirection.swift; sourceTree = "<group>"; };
+		57285B8752A33299436947A0 /* ClockTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTicker.swift; sourceTree = "<group>"; };
+		5C4BD866E214451105426FFC /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		6F41B4F1A7610D589FA876A6 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		771F8CD8D0815BA484AAB046 /* LaunchAtLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLogin.swift; sourceTree = "<group>"; };
+		79EB23A46F1BF1C2313DBB90 /* LocationSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchService.swift; sourceTree = "<group>"; };
+		90A9EFDB55033DC98A4123AC /* ClockIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockIntents.swift; sourceTree = "<group>"; };
+		9B702DFEFFEFDAFCFCB92EA0 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		9CB60345B7E83D1F3EA6F6B5 /* MenuBarTitleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarTitleStyle.swift; sourceTree = "<group>"; };
+		B6DCD0D7382F91B48DF52438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B754A93BA6AAFA7ABE34AE6B /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		C42B2025DCBD97904B6ABAEB /* MoreClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoreClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6015CB734F45E56250DB40D /* LanguageSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSetting.swift; sourceTree = "<group>"; };
+		EE6425DD3979265A4C973E8E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42984F9B2015A20A4B33BEE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690C28C817EF1BC32AE0AD52 /* MoreClockKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D8FD8A2ACA16185922D561E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2025DCBD97904B6ABAEB /* MoreClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		391D69E7BDC81268ABB60DE0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E6015CB734F45E56250DB40D /* LanguageSetting.swift */,
+				771F8CD8D0815BA484AAB046 /* LaunchAtLogin.swift */,
+				6F41B4F1A7610D589FA876A6 /* SettingsScreen.swift */,
+				5C4BD866E214451105426FFC /* SettingsWindowController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		50B73FF7250F7F2E9D2720CC = {
+			isa = PBXGroup;
+			children = (
+				9B607A8A75CE892DE14B3D41 /* MoreClock */,
+				A1C429748F23F2CD44AEE693 /* Packages */,
+				2D8FD8A2ACA16185922D561E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76CFA0903AE4CFD749DC8301 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				57285B8752A33299436947A0 /* ClockTicker.swift */,
+				9CB60345B7E83D1F3EA6F6B5 /* MenuBarTitleStyle.swift */,
+				0A6CDA5FB585336A09FAE9C1 /* StatusItemController.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		9B607A8A75CE892DE14B3D41 /* MoreClock */ = {
+			isa = PBXGroup;
+			children = (
+				A99F820156CC2004FD6BC6AC /* App */,
+				D2BA9519A76364511A3A139B /* Intents */,
+				76CFA0903AE4CFD749DC8301 /* MenuBar */,
+				C01692C2745343B257145929 /* Resources */,
+				391D69E7BDC81268ABB60DE0 /* Settings */,
+				DD74CDE2E56A4FE791BC9C58 /* TimeZonePicker */,
+			);
+			path = MoreClock;
+			sourceTree = "<group>";
+		};
+		A1C429748F23F2CD44AEE693 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				18877BA41A53D4382788EA9F /* MoreClockKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		A99F820156CC2004FD6BC6AC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B6DCD0D7382F91B48DF52438 /* AppDelegate.swift */,
+				56F5DB113DA678B557039412 /* LayoutDirection.swift */,
+				30EA74D1DB2AC03D0ABA2212 /* main.swift */,
+				9B702DFEFFEFDAFCFCB92EA0 /* MainMenu.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C01692C2745343B257145929 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B754A93BA6AAFA7ABE34AE6B /* AppIcon.icon */,
+				33D07D392F41AC47AFF23077 /* AppShortcuts.xcstrings */,
+				EE6425DD3979265A4C973E8E /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D2BA9519A76364511A3A139B /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				90A9EFDB55033DC98A4123AC /* ClockIntents.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		DD74CDE2E56A4FE791BC9C58 /* TimeZonePicker */ = {
+			isa = PBXGroup;
+			children = (
+				79EB23A46F1BF1C2313DBB90 /* LocationSearchService.swift */,
+				29493D70A89ACCABD11FD8C0 /* TimeZonePicker.swift */,
+			);
+			path = TimeZonePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB69B71E18B472FCE7207F2 /* MoreClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16278B878CFF518757192FF3 /* Build configuration list for PBXNativeTarget "MoreClock" */;
+			buildPhases = (
+				970089AD1A692FF0130484F3 /* Sources */,
+				A2B62C2FE419B79BD4ADD227 /* Resources */,
+				42984F9B2015A20A4B33BEE8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoreClock;
+			packageProductDependencies = (
+				86450CA3B7E42EE3F2A2D87F /* MoreClockKit */,
+			);
+			productName = MoreClock;
+			productReference = C42B2025DCBD97904B6ABAEB /* MoreClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F3F3F8FC819659851280F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2EB69B71E18B472FCE7207F2 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 5E3EF1E070DA845AD5D63506 /* Build configuration list for PBXProject "MoreClock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				de,
+				en,
+				es,
+				fa,
+				fr,
+				it,
+				ja,
+				ko,
+				"pt-BR",
+				ru,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 50B73FF7250F7F2E9D2720CC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2DCC0D1272757B912CFE1375 /* XCLocalSwiftPackageReference "Packages/MoreClockKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2D8FD8A2ACA16185922D561E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB69B71E18B472FCE7207F2 /* MoreClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2B62C2FE419B79BD4ADD227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4943D984AEAEF6550677C587 /* AppIcon.icon in Resources */,
+				A66E476347A3750B17D347DA /* AppShortcuts.xcstrings in Resources */,
+				65AAC9377C7B38491B2CAF19 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		970089AD1A692FF0130484F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F511FB0A1539244695AA60 /* AppDelegate.swift in Sources */,
+				14140BC04982B341EE076069 /* ClockIntents.swift in Sources */,
+				8351E35EC46856FFC2845D68 /* ClockTicker.swift in Sources */,
+				F7BD3F4D91A4CE1BD915A6CA /* LanguageSetting.swift in Sources */,
+				137BA69512DA5AD52700D257 /* LaunchAtLogin.swift in Sources */,
+				BE1C2B318CA3159BB174AF39 /* LayoutDirection.swift in Sources */,
+				C86D9F5785962F10BD168338 /* LocationSearchService.swift in Sources */,
+				B031FD3E49D4E95B608A0664 /* MainMenu.swift in Sources */,
+				3E0BA6C4E625C7AC83F3DD49 /* MenuBarTitleStyle.swift in Sources */,
+				F6813E21BEE3F7E1B0FF138B /* SettingsScreen.swift in Sources */,
+				918878A2EFBB6D39DF4318A3 /* SettingsWindowController.swift in Sources */,
+				BCC5D1E3014AFEDAA032E43E /* StatusItemController.swift in Sources */,
+				385E99B1495D5910F0214E80 /* TimeZonePicker.swift in Sources */,
+				13D69C93C228ED6BF258E524 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AD5F308B44327B269653262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MoreClock/MoreClock.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MoreClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MoreClock;
+				PRODUCT_NAME = MoreClock;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Release;
+		};
+		612EA5F088B374BC47B8F83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MoreClock/MoreClock.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MoreClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MoreClock;
+				PRODUCT_NAME = MoreClock;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Debug;
+		};
+		6D5B7FEA8C78A7D85797C375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		AC7DD9A3644AEEB4EEF0C6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16278B878CFF518757192FF3 /* Build configuration list for PBXNativeTarget "MoreClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612EA5F088B374BC47B8F83A /* Debug */,
+				4AD5F308B44327B269653262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5E3EF1E070DA845AD5D63506 /* Build configuration list for PBXProject "MoreClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7DD9A3644AEEB4EEF0C6FA /* Debug */,
+				6D5B7FEA8C78A7D85797C375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2DCC0D1272757B912CFE1375 /* XCLocalSwiftPackageReference "Packages/MoreClockKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/MoreClockKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86450CA3B7E42EE3F2A2D87F /* MoreClockKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MoreClockKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 26F3F3F8FC819659851280F6 /* Project object */;
+}

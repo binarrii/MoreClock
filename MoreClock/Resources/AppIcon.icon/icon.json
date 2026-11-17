@@ -1,0 +1,89 @@
+{
+  "fill": {
+    "linear-gradient": [
+      "display-p3:0.95000,0.97000,1.00000,1.00000",
+      "display-p3:0.74000,0.83000,0.96000,1.00000"
+    ]
+  },
+  "groups": [
+    {
+      "layers": [
+        {
+          "glass": false,
+          "image-name": "front-hands.png",
+          "name": "front-hands",
+          "opacity": 1
+        },
+        {
+          "glass": false,
+          "image-name": "front-rim.png",
+          "name": "front-rim",
+          "opacity": 1
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.25
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    },
+    {
+      "layers": [
+        {
+          "glass": true,
+          "image-name": "front-face.png",
+          "name": "front-face"
+        }
+      ],
+      "shadow": {
+        "kind": "layer-color",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    },
+    {
+      "layers": [
+        {
+          "glass": false,
+          "image-name": "back-hands.png",
+          "name": "back-hands"
+        },
+        {
+          "glass": true,
+          "image-name": "back-face.png",
+          "name": "back-face"
+        },
+        {
+          "glass": false,
+          "image-name": "small-hands.png",
+          "name": "small-hands"
+        },
+        {
+          "glass": true,
+          "image-name": "small-face.png",
+          "name": "small-face"
+        }
+      ],
+      "shadow": {
+        "kind": "layer-color",
+        "opacity": 0.35
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.3
+      }
+    }
+  ],
+  "supported-platforms": {
+    "circles": [
+      "watchOS"
+    ],
+    "squares": "shared"
+  }
+}
