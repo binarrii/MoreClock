@@ -1,6 +1,19 @@
 # MoreClock
 
+[简体中文](README.zh-CN.md)
+
 Extra clocks for the macOS menu bar, one menu bar item per time zone.
+
+## Screenshots
+
+![MoreClock showing a second time zone in the macOS menu bar](Design/Screenshots/menu-bar.png)
+
+<p>
+  <img src="Design/Screenshots/general-settings.png" alt="MoreClock General settings in Simplified Chinese" width="45%">
+  <img src="Design/Screenshots/clock-settings.png" alt="MoreClock Clocks settings in Simplified Chinese" width="45%">
+</p>
+
+## Features
 
 - Any number of clocks. Each has a name, its own time zone, prefix (such as a flag emoji or "SF"), optional seconds, optional bold text, and an optional date: weekday, date, or both ("Tue", "Nov 17", "Tue, Nov 17").
 - The date is formatted for the user's locale and calendar, and uses each clock's own time zone. A Honolulu clock can show a different day from a Tokyo clock.
