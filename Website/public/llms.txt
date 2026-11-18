@@ -1,0 +1,31 @@
+# MoreClock
+
+> MoreClock is a native macOS menu bar app for displaying clocks in multiple time zones. Its official website is https://moreclock.skyviiew.com/ and its source repository is https://github.com/binarrii/MoreClock.
+
+## Product facts
+
+- Current release: v1.0.0, build 7.
+- Minimum operating system: macOS 26.
+- Architecture: one universal app for Apple silicon and Intel Macs.
+- Download: a 2,803,364-byte DMG hosted on GitHub Releases.
+- Each configured clock appears as a separate menu bar item.
+- A clock can have a custom name, a prefix such as a country flag, optional seconds, optional bold text, and a date with the weekday, calendar date, or both.
+- Clock names appear in Settings, the clock menu and Shortcuts. The menu bar displays the prefix, optional date and time.
+- Selecting a city or time zone fills an empty prefix with its country or region flag. Custom prefixes are preserved.
+- Time formatting follows the Mac's 12/24-hour setting. Dates follow the user's locale and calendar, in the clock's own time zone.
+- Settings includes General, Clocks and About tabs. General includes launch at login and app language.
+- Interface languages: English, Simplified Chinese, Traditional Chinese, Japanese, Korean, German, French, Spanish, Italian, Brazilian Portuguese, Russian, Arabic and Persian. Arabic and Persian support right-to-left layout.
+- Shortcuts actions can add, remove, show and hide clocks, edit clock configuration, and read times.
+- Command-drag a clock to reorder it. Drag it out of the menu bar to hide it. Open MoreClock again from Finder or Spotlight to return to Settings.
+- The v1.0.0 download is ad-hoc signed and not notarized by Apple. macOS may block first launch. Consult Apple's app-opening guidance before choosing to open it.
+- The website is a product preview; its interactive controls do not configure the installed macOS app.
+
+## Primary sources
+
+- [Official website](https://moreclock.skyviiew.com/): product overview and installation questions.
+- [Source and documentation](https://github.com/binarrii/MoreClock): implementation, features, build instructions and localization.
+- [Release v1.0.0](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0): release notes and assets.
+- [Download MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg): universal DMG.
+- [SHA-256 checksums](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt): published release checksums.
+- [Report an issue](https://github.com/binarrii/MoreClock/issues): project issue tracker.
+- [Apple's app-opening guidance](https://support.apple.com/en-us/102445): Gatekeeper and app-opening instructions.

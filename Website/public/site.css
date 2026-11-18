@@ -1,0 +1,134 @@
+:root {
+  --p-bg: #0a0d14; --p-surface: #131824; --p-ink: #e9edf3; --p-muted: #8891a1;
+  --p-accent: #5ab9fc; --p-accent-ink: #0a0d14; --p-action: #5ab9fc; --p-action-ink: #0a0d14;
+  --p-inv-bg: #e9edf3; --p-inv-surface: #d7dbe1; --p-inv-ink: #0a0d14; --p-inv-muted: #54575f;
+  --p-inv-accent: #0a0d14; --p-inv-accent-ink: #e9edf3; --p-inv-action: #0a0d14; --p-inv-action-ink: #e9edf3;
+  --font-display: "Instrument Sans", system-ui, sans-serif;
+  --font-text: "Instrument Sans", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --display-weight: 500; --display-tracking: -0.028em; --display-tracking-xl: -0.036em;
+  --display-stretch: 96%; --ly-scale: 1.04;
+}
+/* Product-specific visuals. Layout, motion, buttons and page spacing come from the kit. */
+.hero--centred .hero__lead { color:var(--ink); }
+.btn--secondary { border:1px solid var(--muted); }
+.faq > .faq__item { padding-block:32px; }
+.faq > .faq__item:first-child { padding-top:0; }
+.faq-shot { margin-top:32px; height:calc(100svh - 420px); background:var(--surface); padding:24px; }
+@media (max-width:639px) {
+  #questions .section-head { margin-bottom:24px; }
+  footer.closing > .wrap { row-gap:24px; }
+}
+.tablet-doc { display:none; }
+@media (min-width:640px) and (max-width:1023px) {
+  #questions > .wrap { display:flex; flex-direction:column; height:100%; gap:32px; }
+  #questions .section-head { margin-bottom:24px; }
+  #questions .faq { display:flex; flex:1; flex-direction:column; justify-content:space-between; min-height:0; }
+  #questions .faq > .faq__item { padding-block:16px; }
+  #questions .faq > .faq__item:first-child { padding-top:0; }
+  #questions .tablet-doc { display:inline-flex; }
+  .closing__cta.close--type > .btn--xl { min-height:clamp(88px, 18svh, 220px); }
+}
+.faq-shot img { display:block; width:100%; height:100%; object-fit:contain; }
+@media (max-width:1023px) { .faq-shot { display:none; } }
+@media (max-width:639px) {
+  .faq > .faq__item { padding-block:16px; }
+  .settings-row select, .settings-row input:not([type="checkbox"]) { min-height:44px; }
+}
+@media (max-width:639px) {
+  .nav__logo .brand-name { display:none; }
+}
+.nav__logo img, .footer__mark img { object-fit: contain; flex: none; }
+.mac-preview { color: #eef4fb; font: 400 14px/1.5 var(--font-text); }
+.mac-menubar { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:4px 16px; min-height:48px; background:#172432; border:1px solid #526371; border-radius:12px; box-shadow:0 8px 32px #0a0d1420; }
+.mac-app-name { font-weight:500; }
+.mac-clocks { display:flex; gap:8px; }
+.mac-clocks button { display:flex; align-items:center; gap:8px; color:inherit; font:500 15px/1 var(--font-text); border:0; background:transparent; border-radius:8px; padding:8px 12px; min-height:44px; cursor:pointer; }
+.mac-clocks button[aria-pressed="true"] { background:#e5f0fc20; }
+.mac-clocks button:hover { background:#e5f0fc30; }
+.mac-clocks button span { font-size:20px; line-height:1; }
+.mac-clocks time { font-variant-numeric:tabular-nums; }
+.clock-menu { margin:8px auto 0; width:320px; border:1px solid #526371; border-radius:16px; padding:20px 24px 8px; background:#1d2b39; box-shadow:0 16px 40px #0a0d1430; }
+.clock-menu__title { display:flex; align-items:center; gap:8px; font-weight:500; }
+.clock-menu__title > span:first-child { font-size:22px; }
+.clock-menu__offset { margin-left:auto; font:400 13px/1.5 var(--font-mono); color:#bdcbd8; }
+.clock-menu__time { display:block; margin-top:8px; font:500 56px/1.2 var(--font-display); font-variant-numeric:tabular-nums; letter-spacing:-.04em; }
+.clock-menu__date { color:#d3dce5; font-size:14px; margin:4px 0 12px; }
+.clock-menu__settings { display:flex; justify-content:space-between; min-height:44px; padding:12px 0; color:#d3dce5; text-decoration:none; border-top:1px solid #526371; }
+.clock-menu__settings:hover { color:#fff; }
+/* The actual app's toolbar and per-clock form, with working preview controls. */
+.settings-stage { display:grid; place-items:center; background:#cfdae4; border-radius:var(--r-lg); overflow:hidden; padding:24px; }
+.settings-app { width:min(100%, 640px); color:#252a32; font:400 14px/1.5 var(--font-text); border-radius:16px; border:1px solid #9daebb; background:#f2f4f7; box-shadow:0 24px 64px -24px #17243250; overflow:hidden; }
+.settings-toolbar { position:relative; display:flex; flex-direction:column; align-items:center; padding:12px 24px; background:#e5eaf0; border-bottom:1px solid #c8cfd8; gap:8px; }
+.window-dots { position:absolute; top:16px; left:16px; display:flex; gap:8px; }
+.window-dots i { display:block; width:10px; height:10px; border-radius:50%; background:#aeb8c4; }
+.window-dots i:first-child { background:#ed7369; }.window-dots i:nth-child(2) { background:#e8bb5c; }.window-dots i:nth-child(3) { background:#74bd8b; }
+.settings-title { font-size:13px; font-weight:500; }
+.settings-tabs { display:flex; gap:8px; }
+.settings-tabs button { font:500 14px/1.5 var(--font-text); color:#545d68; background:transparent; border:0; border-radius:8px; padding:8px 16px; min-height:44px; cursor:pointer; }
+.settings-tabs button[aria-selected="true"] { background:#d0dae7; color:#182e4b; }
+.settings-tabs button:hover { background:#d7dfe9; }
+.settings-body { padding:24px; min-height:298px; }
+.settings-body[hidden] { display:none; }
+.settings-group { padding:0 16px; background:#fff; border:1px solid #d8dde4; border-radius:12px; }
+.settings-group__head { min-height:44px; display:flex; justify-content:space-between; align-items:center; font-weight:500; border-bottom:1px solid #e5e8ed; }
+.settings-group__head > span:first-child { display:flex; align-items:center; gap:8px; }
+.settings-row { display:flex; justify-content:space-between; align-items:center; gap:16px; min-height:44px; border-bottom:1px solid #e5e8ed; }
+.settings-row:last-child { border:0; }
+.settings-row > span { flex-shrink:0; }
+.settings-row select, .settings-row input:not([type="checkbox"]) { min-width:0; max-width:62%; width:220px; min-height:44px; font:400 14px/1.5 var(--font-text); color:#28374a; background:#f1f4f8; border:1px solid #cbd3dd; border-radius:6px; padding:4px 8px; }
+.settings-row input:not([type="checkbox"]) { text-align:right; }
+.native-check { accent-color:#1769bd; width:20px; height:20px; }
+.settings-result { margin-top:16px; display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.settings-result__label { font-size:13px; color:#5a6572; }
+.settings-result output { font-size:16px; font-variant-numeric:tabular-nums; }
+.settings-note { margin-top:24px; color:#485563; }
+.settings-about { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; }
+.settings-about__name { font-size:20px; font-weight:500; }
+/* Two fragments, without a second whole app window. */
+#details .panel { --p-h:280px; }
+.feature-cards > .card { align-content:start; }
+.date-panel, .language-panel { background:#c6d3df; color:#25303a; }
+.date-fragment { padding:24px; margin:24px; border-radius:12px; background:#f4f7fa; font:400 14px/1.5 var(--font-text); }
+.date-fragment > div { display:flex; justify-content:space-between; align-items:center; gap:8px; padding:12px 0; border-bottom:1px solid #d5dfe8; }
+.date-fragment > div:last-child { border:0; }
+.date-fragment > div > span { color:#526477; font-size:13px; }
+.date-fragment time { font-weight:500; white-space:nowrap; font-variant-numeric:tabular-nums; }
+.language-fragment { display:flex; align-content:center; align-items:center; justify-content:center; flex-wrap:wrap; gap:12px; padding:32px; height:100%; }
+.language-fragment span { font-size:18px; line-height:1.4; color:#25303a; padding:8px 12px; border-radius:8px; background:#eaf0f6; }
+@media (min-width:640px) and (max-width:1023px) {
+  #details .feature-cards { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  #details .feature-cards > .card { grid-column:auto; }
+  #details .panel { --p-h:320px; }
+  .date-fragment { margin:16px; padding:16px; }
+  .date-fragment > div { flex-wrap:wrap; }
+  .language-fragment { padding:16px; gap:8px; }
+  .language-fragment span { font-size:16px; padding:4px 8px; }
+}
+@media (max-width:639px) {
+  .mac-menubar { padding:4px; gap:0; }
+  .mac-app-name { display:none; }
+  .mac-clocks { width:100%; gap:0; justify-content:space-between; }
+  .mac-clocks button { font-size:13px; padding:4px 8px; gap:4px; }
+  .mac-clocks button span { font-size:18px; }
+  .clock-menu { width:min(100%,280px); padding:16px 16px 4px; }
+  .clock-menu__time { font-size:44px; }
+  .clock-menu__date { font-size:13px; margin-bottom:8px; }
+  .clock-menu__title { font-size:14px; }
+  .settings-stage { padding:16px; }
+  .settings-toolbar { padding:12px 8px; }
+  .window-dots { gap:4px; top:16px; left:12px; }
+  .window-dots i { width:8px; height:8px; }
+  .settings-tabs { gap:4px; }.settings-tabs button { padding:8px 12px; }
+  .settings-body { padding:16px; min-height:310px; }
+  .settings-group { padding:0 12px; }
+  .settings-row { gap:8px; font-size:13px; }
+  .settings-row select,.settings-row input:not([type="checkbox"]) { width:140px; font-size:16px; }
+  .settings-result { flex-wrap:wrap; }
+  #details .panel { --p-h:264px; }
+  .date-fragment { margin:16px; padding:16px; }
+  .date-fragment > div { flex-wrap:wrap; }
+  .date-fragment time { font-size:14px; }
+  .language-fragment { padding:24px 16px; gap:8px; }
+  .language-fragment span { font-size:16px; padding:8px; }
+}

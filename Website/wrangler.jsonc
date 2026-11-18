@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "moreclock-website",
+  "account_id": "011e57b1f4b1a54fe85a125f3aa94cab",
+  "compatibility_date": "2026-11-17",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "moreclock.skyviiew.com", "custom_domain": true }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "palettes": [
+    "blue-black-cornflower"
+  ],
+  "types": [
+    "instrument"
+  ],
+  "dealt": [
+    "instrument",
+    "outfit",
+    "onest"
+  ],
+  "moments": [
+    {
+      "id": "iris-opens",
+      "at": "2026-11-18T06:21:42.065Z",
+      "seed": "8a8d3254"
+    }
+  ]
+}
