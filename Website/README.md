@@ -18,13 +18,23 @@ npm run dev
 
 The interactive menu-bar and Settings previews run in the browser. Their controls do not change settings in the installed app.
 
+## Website languages
+
+The site supports the same 13 languages as the Mac app. The language picker follows the app’s order and includes System Default. Arabic and Persian use right-to-left layouts.
+
+On `/`, the site matches the browser’s primary language to a supported edition and falls back to English. Traditional Chinese preferences such as `zh-TW` and `zh-HK` open `/zh-Hant/`. Simplified Chinese opens `/zh-CN/`. Portuguese preferences open the Brazilian Portuguese edition. The picker saves manual choices when browser storage is available. System Default clears that choice. Direct links to localized pages preserve their language.
+
+The locale registry is in `locales/registry.mjs`, translations are in `locales/`, and the shared markup is in `templates/index.html`. Run `npm run build` to regenerate all static HTML, structured data, GEO fact sheets, the sitemap, and Cloudflare language headers. Development, checks and deployment run this build automatically. The homepage defaults to English when JavaScript is disabled, and the localized URLs serve fully translated HTML on their own.
+
+Interactive city names and dates use the page locale. IANA zone identifiers are shared across editions.
+
 ## Check
 
 ```bash
 npm run check
 ```
 
-Checks structured data, canonical and crawl links, required local files, FAQ question parity, time-zone conversion, custom prefixes, date/bold controls, tabs and keyboard navigation.
+Checks all 13 editions for static translations, language-picker links, canonical and alternate URLs, localized social metadata, structured data that matches the visible FAQ, and GEO source links. It also tests browser-language detection, manual choices, System Default, supported time zones, dates, and preview controls.
 
 ```bash
 npm run check:deploy
@@ -44,14 +54,14 @@ npm run deploy
 
 ## Release updates
 
-When the app version changes, update the visible version, all download links, the SoftwareApplication JSON-LD, `public/llms.txt`, the version assertions in `scripts/check.mjs`, and any relevant app screenshots together. Confirm the public download and checksum before deployment. Regenerate `public/share.jpg` when the hero design changes.
+When the app version changes, update the release facts in `scripts/build.mjs`, the download values in `templates/index.html`, the localized version copy, and the version assertions in `scripts/check.mjs`. Build all editions together and confirm the download and checksum before deployment. The English and Simplified Chinese editions use screenshots of their hero sections for sharing. The other editions use the MoreClock app icon with localized share text.
 
 ## Search and answer-engine files
 
-- `index.html`: semantic product copy, visible FAQ, canonical link, Open Graph/Twitter metadata, and WebSite/WebPage/SoftwareApplication/FAQPage JSON-LD.
-- `robots.txt`: allows public crawling and references the sitemap.
-- `sitemap.xml`: the canonical product page only.
-- `llms.txt`: sourced product facts, compatibility, release caveats, and links to the repository, release, checksum and support guidance.
-- `404.html`: real HTTP 404 response with `noindex`.
+- All locale pages include translated product copy and FAQs, self-referencing canonical URLs, reciprocal `hreflang` links, localized social metadata, and WebSite, WebPage, SoftwareApplication and FAQPage structured data. `x-default` points to `/`.
+- `robots.txt` allows public crawling and references the sitemap. `sitemap.xml` lists all 13 canonical pages and their language alternates.
+- Each locale’s `llms.txt` includes localized product facts and links to the release, download, checksum and official guidance. Every sheet links to all languages and their fact sheets.
+- `_headers`: locale-specific Content-Language headers and UTF-8 plain-text fact sheets.
+- `404.html`: real HTTP 404 response with `noindex` and links to both language home pages.
 
 The app has no published price or rating in the project sources, so neither is invented for structured data. Structured data and `llms.txt` aid discovery and interpretation; they do not guarantee search-result features, indexing or AI citations. No Search Console/Bing account submission was performed.

@@ -1,44 +1,57 @@
 # Website validation
 
-GATE: PASS
+## 13-language update
+
+- `npm run check` covered all 13 editions, including localized titles, FAQ answer parity, reciprocal `hreflang`, the sitemap, language headers and every locale’s GEO fact sheet.
+- Routing tests covered browser language selection, both Chinese scripts, English fallback, saved preferences, System Default and restricted browser storage.
+- Local Chrome checks verified the Arabic picker at 320px, navigation to Persian, saved-language redirects and resetting to the browser language. English and French navigation were checked at 1024px.
+- The results below describe the earlier English and Simplified Chinese release.
 
 ## Build and content
 
 - Kind: software, a native macOS menu-bar clock app.
-- Palette: blue-black-cornflower, chosen by the skill dealer; the blue accent relates to the actual app icon. Instrument Sans and DM Mono; centred hero, centred navigation, tonal buttons, column footer, large type close, light settings band, sky UI ground.
-- Effect: silk-folds held still behind the hero preview. Moment: iris-opens on Settings. No scenes or stock photography.
-- Voice: product-as-hero, direct feature descriptions, no invented reviews, prices, customer counts or performance claims.
-- Copy lint: zero failures and zero warnings. No assumed facts, coined name, forms, contact placeholders or missing client assets. The canonical hostname was supplied by the user.
-- Product artwork: the installed app's real icon and the repository's General settings screenshot. The app UI previews are HTML; there are no stand-in assets.
+- The existing blue-black-cornflower palette, Instrument Sans / DM Mono pairing, centred hero, tonal buttons and column footer are preserved. The still silk-folds background and iris-opens Settings transition use the unchanged kit runtime.
+- English at `/`; Simplified Chinese at `/zh-CN/`. The homepage uses the browser’s primary language or a saved manual choice. Chinese tags open the Simplified Chinese page, and other tags default to English. Direct links to `/zh-CN/` keep that language.
+- Shared source: `templates/index.html`; translation catalogs: `locales/en.json` and `locales/zh-CN.json`; static generator: `scripts/build.mjs`. Missing, empty or mismatched translation keys fail the build. Both pages contain their localized content before JavaScript runs.
+- Chinese translations cover product copy, navigation, accessible names, settings controls, city names, example dates, FAQ, footer and source links. Preview dates use `Intl.DateTimeFormat` with the page locale; IANA identifiers remain unchanged. Asynchronously mounted animation controls also receive localized labels.
+- No invented price, rating, review or customer count. The app's English and 12 translations remain distinct from the website's English and Simplified Chinese editions.
+- Product artwork: the real app icon, repository General settings screenshot, and a separate screenshot-based hero sharing image for each website language. No stock or stand-in assets.
+
+## SEO and GEO
+
+- Both pages have their own title, description, canonical URL, Open Graph URL/locale/alternate locale/image, Twitter card and HTML language.
+- Reciprocal `en`, `zh-Hans` and `x-default` links appear in each head and sitemap entry. `x-default` points to English. The Chinese URL is `/zh-CN/`; its language tag is `zh-Hans`, identifying Simplified Chinese without restricting the audience to a country.
+- Localized WebPage, SoftwareApplication descriptions/features, and FAQ JSON-LD. The SoftwareApplication entity preserves the app's 13 supported languages; the WebSite entity declares two languages.
+- FAQ question and answer text is checked against visible content, including the localized Apple support link.
+- English and Chinese `llms.txt` fact sheets link to each other, both website pages, the release/download/checksum, the matching README language, issues and Apple guidance. These are sourced facts, not a promise of indexing or citations.
+- Locale-specific Content-Language headers and UTF-8 fact sheet MIME types. Global crawl access remains enabled. The bilingual error page retains `noindex` and HTTP 404 handling.
 
 ## Verification
 
-- `npm run check`: passed canonical/JSON-LD/crawl-file/local-link checks and preview interaction checks, including keyboard tabs and time-zone conversion.
-- Wrangler dry-run: passed. Only 29 production files uploaded on the first deployment; unused kit demos, screenshot reports and profiles were excluded.
-- Headless screenshots taken at 1440×900, 1024×768, 820×1180, 768×1024 and 390×844. The hero stress check passed at every width. No sideways overflow was found in the 320px walk.
-- Full checks included reduced motion, hidden content, text contrast, keyboard names and focus, links, rendering and motion guards. The final tablet pass addressed excess FAQ/footer space and added a documentation action where the layout has room for it.
-- CPU Chrome performance: no failures. Desktop transfer approximately 632 KiB and phone approximately 585 KiB; median LCP approximately 280 ms and 312 ms respectively. CLS 0.003 desktop and 0 phone. These are local synthetic measurements, not field performance or promises.
-- Performance warnings retained: an already-loaded app icon reused below the fold, and a settings screenshot larger than the checker's strict 2.2× threshold on desktop. The screenshot preserves readability of the actual app UI.
-- The final custom domain's product HTML (`main`) and JSON-LD matched the local source. Cloudflare adds its existing managed bot-protection markup outside that product content, so the entire HTML response is not byte-identical. JS, CSS, crawl files, social image and required dynamic modules were fetched and matched byte-for-byte. Unknown URLs return HTTP 404. Development report and template paths return 404.
-- The deployed custom-domain page was rendered in headless Chrome: five complete desktop screens. Deployment version: `b91e23e4-ac21-4861-a7bd-ca9e75694955`.
-- Custom-domain HTTPS verified without an IP override. Public Cloudflare and Google DNS responses also confirmed the hostname.
-- Public v1.0.0 DMG checksum matched `f8bb5d7465bdafa8483c3beef5c8d403295b62d153807af7c347c40a83911bb0`.
+- `npm run check`: passed for both languages. Covers metadata, reciprocal alternates, exact FAQ parity, GEO files, local links/assets, all DOM time-zone attributes/options, localized runtime dates/cities, custom prefix preservation, date/bold controls and keyboard tabs.
+- A browser check caught a translated IANA identifier during implementation. The shared template was corrected and the generated-HTML identifier checks were added before deployment. Final Chinese desktop/phone captures have no browser runtime exceptions.
+- Chinese layout checked at 1440×900, 1024×768, 820×1180, 768×1024 and 390×844. The actual hero title takes one desktop line and two phone lines. No sideways overflow was found in the 320px walk. Narrow-desktop FAQ spacing was adjusted to keep translated answers readable.
+- Both desktop/phone finish gates passed, including reduced-motion, rendering, focus, accessibility names, hidden-content and motion checks. English copy lint has no failures or warnings; Chinese phrase/word-count warnings from the English-oriented checker are retained rather than inserting artificial English copy.
+- Chinese CPU Chrome performance: zero failures, three warnings. Approximately 634 KiB transferred on desktop and 587 KiB on phone; median LCP 312 ms / 284 ms; CLS 0.002 / 0. These are local synthetic measurements, not field-performance claims.
+- Retained performance warnings: the already-loaded app icon reused below the fold, and the real settings screenshot exceeding the strict desktop 2.2× source-size threshold. These do not add extra image requests for the repeated icon or obscure the UI.
+- Wrangler dry-run passed before deployment. Production excludes source templates/catalogs, browser profiles, scratch data and generated checker reports.
+- Deployed bilingual version: `549d6df6-e7e2-4f31-99fb-4216f5fa70e9`. Both live URLs returned HTTP 200 over normal HTTPS with the expected Content-Language header (`en` / `zh-Hans`). Product HTML and JSON-LD matched the generated source; Cloudflare's managed markup outside the product content was not treated as a source difference.
+- Both live GEO fact sheets, the multilingual sitemap, separate sharing images, JS and CSS matched local bytes. Fact sheets were served as UTF-8 plain text. `/zh-CN` redirected to `/zh-CN/` with HTTP 307. Unknown localized pages, source catalogs/templates and checker report URLs returned HTTP 404.
 
 ## Documented checker exceptions
 
 The kit runtime was not edited. The exact waivers are in `.taste-skill/waivers.json`:
 
-1. `container-edges` on the iris stage: its overlay is generated by the unchanged built-in iris-opens module, beside the content wrap by design.
-2. `text-only` on the mobile/tablet FAQ: the reference explicitly allows an open, pictureless FAQ; the actual screenshot is a desktop enhancement.
-3. `one-sided` on the desktop FAQ screenshot: the screenshot occupies the left column and all answers occupy the right column; expanding the screenshot across the answers would obscure content.
-4. `flush` on tablet iris cover: the inset overlay is a transition surface generated by the module, not a content band.
-5. `one-section` on the 820px menu-bar preview: this toolbar with time-zone buttons is the product UI, not a separate section.
+1. `container-edges` on the iris stage: the unchanged module intentionally generates its transition overlay beside the content wrap.
+2. `text-only` on the mobile FAQ: the section recipe explicitly permits a pictureless, open FAQ; the screenshot is a desktop enhancement.
+3. `one-sided` on the desktop FAQ screenshot: the image occupies the left column while answers occupy the right column to the content edge.
+4. `hero-lines` on the Chinese stress test: the checker pads to 36 characters, a maximum calibrated for Latin glyph widths. The actual Chinese category heading fits at every tested width. Text was not shrunk to clear the test.
+5. `one-section` on the tablet menu-bar preview: its toolbar and time-zone buttons are the product itself, not a separate content band.
 
-The final desktop/phone gate applied exceptions 1–3 and reported PASS. The remaining tablet raw failures correspond to exceptions 1, 2, 4 and 5. Nonblocking warnings remain for the kit's transition spacing, nav/heading wording, FAQ word budget, repeated nav/hero action, tonal secondary contrast, tablet footer whitespace and native app-preview control styling. The native preview remains keyboard-operable and the secondary button retains a visible border and focus ring.
+English gate: exceptions 1–3, no open failures. Chinese gate: exceptions 1–4, no open failures. Nonblocking warnings remain for native-preview styling, transition spacing, nav/heading wording, repeated nav/hero action, tonal button contrast, FAQ density and tablet whitespace.
 
 ## Limits
 
-- The external screenshot-review service was blocked by automatic permission review because it would upload a local screenshot to MiniMax. Screenshots were generated, and DOM/layout/rendering/performance checks ran; an external image-based critique was not completed.
-- Workflow research agents failed to start; product facts and hosting documentation were checked directly instead. No independent agent review is claimed.
-- No search-engine account verification, indexing submission, rich-result eligibility approval or AI-citation measurement was performed. `llms.txt` is advisory, not a universally adopted indexing protocol.
-- No Git commit or push was requested for the website changes.
+- Screenshots and automated DOM/layout checks ran. External screenshot critique was not performed; the earlier MiniMax upload was blocked by automatic permission review.
+- The research agents failed to start, so no independent agent review is claimed. Multilingual search guidance was read directly from Google Search Central.
+- No search-engine account verification, indexing submission, rich-result approval or AI-citation measurement was performed. `llms.txt` is advisory.

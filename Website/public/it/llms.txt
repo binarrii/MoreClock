@@ -1,0 +1,41 @@
+# MoreClock
+
+> Controlla l’ora delle città che ti interessano dalla barra dei menu. Scegli la città, la bandiera e la data per ogni orologio.
+
+## Lingua
+
+- [Deutsch](https://moreclock.skyviiew.com/de/) · [MoreClock-Produktinformationen](https://moreclock.skyviiew.com/de/llms.txt)
+- [English](https://moreclock.skyviiew.com/) · [MoreClock product facts](https://moreclock.skyviiew.com/llms.txt)
+- [Español](https://moreclock.skyviiew.com/es/) · [Información sobre MoreClock](https://moreclock.skyviiew.com/es/llms.txt)
+- [Français](https://moreclock.skyviiew.com/fr/) · [Informations sur MoreClock](https://moreclock.skyviiew.com/fr/llms.txt)
+- [Italiano](https://moreclock.skyviiew.com/it/) · [Informazioni su MoreClock](https://moreclock.skyviiew.com/it/llms.txt)
+- [Português (Brasil)](https://moreclock.skyviiew.com/pt-BR/) · [Informações sobre o MoreClock](https://moreclock.skyviiew.com/pt-BR/llms.txt)
+- [Русский](https://moreclock.skyviiew.com/ru/) · [О приложении MoreClock](https://moreclock.skyviiew.com/ru/llms.txt)
+- [العربية](https://moreclock.skyviiew.com/ar/) · [معلومات عن MoreClock](https://moreclock.skyviiew.com/ar/llms.txt)
+- [فارسی](https://moreclock.skyviiew.com/fa/) · [اطلاعات MoreClock](https://moreclock.skyviiew.com/fa/llms.txt)
+- [한국어](https://moreclock.skyviiew.com/ko/) · [MoreClock 제품 정보](https://moreclock.skyviiew.com/ko/llms.txt)
+- [日本語](https://moreclock.skyviiew.com/ja/) · [MoreClockの製品情報](https://moreclock.skyviiew.com/ja/llms.txt)
+- [简体中文](https://moreclock.skyviiew.com/zh-CN/) · [MoreClock 产品信息](https://moreclock.skyviiew.com/zh-CN/llms.txt)
+- [繁體中文](https://moreclock.skyviiew.com/zh-Hant/) · [MoreClock 產品資訊](https://moreclock.skyviiew.com/zh-Hant/llms.txt)
+
+## Informazioni su MoreClock
+
+- Versione 1.0.0 (7)
+- MoreClock richiede macOS 26 o successivo e funziona sui Mac con chip Apple o Intel.
+- Cerca un luogo o un fuso orario e assegna un nome all’orologio. MoreClock crea una voce distinta nella barra dei menu per ogni orologio.
+- Mostra il giorno, la data o entrambi. Secondi e grassetto sono facoltativi per ogni orologio.
+- MoreClock segue la lingua del Mac ed è disponibile in 13 lingue. Arabo e persiano sono visualizzati da destra a sinistra.
+- Sì. Puoi aggiungere, rimuovere, mostrare o nascondere orologi, cambiare il fuso orario e leggere l’ora.
+- Scegli Impostazioni dal menu di un orologio o riapri MoreClock dal Finder o da Spotlight.
+- Tieni premuto Comando mentre trascini un orologio. Trascinalo fuori dalla barra dei menu per nasconderlo.
+- Questa versione ha una firma ad hoc e non è autenticata da Apple.
+
+## Fonti ufficiali
+
+- [Informazioni su MoreClock](https://moreclock.skyviiew.com/it/)
+- [Leggi la documentazione](https://github.com/binarrii/MoreClock/blob/main/README.md)
+- [Leggi le note di rilascio ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
+- [Scarica MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
+- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [Segnala un problema](https://github.com/binarrii/MoreClock/issues)
+- [Leggi la guida Apple per aprire le app](https://support.apple.com/it-it/102445)

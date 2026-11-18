@@ -13,8 +13,96 @@
 /robots.txt
   Content-Type: text/plain; charset=utf-8
 
-/llms.txt
-  Content-Type: text/plain; charset=utf-8
-
 /sitemap.xml
   Content-Type: application/xml; charset=utf-8
+
+/de/
+  Content-Language: de
+
+/de/llms.txt
+  Content-Language: de
+  Content-Type: text/plain; charset=utf-8
+
+/
+  Content-Language: en
+
+/llms.txt
+  Content-Language: en
+  Content-Type: text/plain; charset=utf-8
+
+/es/
+  Content-Language: es
+
+/es/llms.txt
+  Content-Language: es
+  Content-Type: text/plain; charset=utf-8
+
+/fr/
+  Content-Language: fr
+
+/fr/llms.txt
+  Content-Language: fr
+  Content-Type: text/plain; charset=utf-8
+
+/it/
+  Content-Language: it
+
+/it/llms.txt
+  Content-Language: it
+  Content-Type: text/plain; charset=utf-8
+
+/pt-BR/
+  Content-Language: pt-BR
+
+/pt-BR/llms.txt
+  Content-Language: pt-BR
+  Content-Type: text/plain; charset=utf-8
+
+/ru/
+  Content-Language: ru
+
+/ru/llms.txt
+  Content-Language: ru
+  Content-Type: text/plain; charset=utf-8
+
+/ar/
+  Content-Language: ar
+
+/ar/llms.txt
+  Content-Language: ar
+  Content-Type: text/plain; charset=utf-8
+
+/fa/
+  Content-Language: fa
+
+/fa/llms.txt
+  Content-Language: fa
+  Content-Type: text/plain; charset=utf-8
+
+/ko/
+  Content-Language: ko
+
+/ko/llms.txt
+  Content-Language: ko
+  Content-Type: text/plain; charset=utf-8
+
+/ja/
+  Content-Language: ja
+
+/ja/llms.txt
+  Content-Language: ja
+  Content-Type: text/plain; charset=utf-8
+
+/zh-CN/
+  Content-Language: zh-Hans
+
+/zh-CN/llms.txt
+  Content-Language: zh-Hans
+  Content-Type: text/plain; charset=utf-8
+
+/zh-Hant/
+  Content-Language: zh-Hant
+
+/zh-Hant/llms.txt
+  Content-Language: zh-Hant
+  Content-Type: text/plain; charset=utf-8

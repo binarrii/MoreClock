@@ -1,6 +1,22 @@
 # MoreClock
 
-> MoreClock is a native macOS menu bar app for displaying clocks in multiple time zones. Its official website is https://moreclock.skyviiew.com/ and its source repository is https://github.com/binarrii/MoreClock.
+> MoreClock is a native macOS menu bar app for displaying clocks in multiple time zones.
+
+## Website languages
+
+- [Deutsch](https://moreclock.skyviiew.com/de/) · [MoreClock-Produktinformationen](https://moreclock.skyviiew.com/de/llms.txt)
+- [English](https://moreclock.skyviiew.com/) · [MoreClock product facts](https://moreclock.skyviiew.com/llms.txt)
+- [Español](https://moreclock.skyviiew.com/es/) · [Información sobre MoreClock](https://moreclock.skyviiew.com/es/llms.txt)
+- [Français](https://moreclock.skyviiew.com/fr/) · [Informations sur MoreClock](https://moreclock.skyviiew.com/fr/llms.txt)
+- [Italiano](https://moreclock.skyviiew.com/it/) · [Informazioni su MoreClock](https://moreclock.skyviiew.com/it/llms.txt)
+- [Português (Brasil)](https://moreclock.skyviiew.com/pt-BR/) · [Informações sobre o MoreClock](https://moreclock.skyviiew.com/pt-BR/llms.txt)
+- [Русский](https://moreclock.skyviiew.com/ru/) · [О приложении MoreClock](https://moreclock.skyviiew.com/ru/llms.txt)
+- [العربية](https://moreclock.skyviiew.com/ar/) · [معلومات عن MoreClock](https://moreclock.skyviiew.com/ar/llms.txt)
+- [فارسی](https://moreclock.skyviiew.com/fa/) · [اطلاعات MoreClock](https://moreclock.skyviiew.com/fa/llms.txt)
+- [한국어](https://moreclock.skyviiew.com/ko/) · [MoreClock 제품 정보](https://moreclock.skyviiew.com/ko/llms.txt)
+- [日本語](https://moreclock.skyviiew.com/ja/) · [MoreClockの製品情報](https://moreclock.skyviiew.com/ja/llms.txt)
+- [简体中文](https://moreclock.skyviiew.com/zh-CN/) · [MoreClock 产品信息](https://moreclock.skyviiew.com/zh-CN/llms.txt)
+- [繁體中文](https://moreclock.skyviiew.com/zh-Hant/) · [MoreClock 產品資訊](https://moreclock.skyviiew.com/zh-Hant/llms.txt)
 
 ## Product facts
 
@@ -22,10 +38,10 @@
 
 ## Primary sources
 
-- [Official website](https://moreclock.skyviiew.com/): product overview and installation questions.
-- [Source and documentation](https://github.com/binarrii/MoreClock): implementation, features, build instructions and localization.
-- [Release v1.0.0](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0): release notes and assets.
-- [Download MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg): universal DMG.
-- [SHA-256 checksums](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt): published release checksums.
-- [Report an issue](https://github.com/binarrii/MoreClock/issues): project issue tracker.
-- [Apple's app-opening guidance](https://support.apple.com/en-us/102445): Gatekeeper and app-opening instructions.
+- [Official website](https://moreclock.skyviiew.com/)
+- [Source and documentation](https://github.com/binarrii/MoreClock/blob/main/README.md)
+- [Release v1.0.0](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
+- [Download MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
+- [SHA-256 checksums](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [Report an issue](https://github.com/binarrii/MoreClock/issues)
+- [Apple's app-opening guidance](https://support.apple.com/en-us/102445)

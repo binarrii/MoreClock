@@ -4,10 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev",
-    "check": "node scripts/check.mjs",
-    "check:deploy": "wrangler deploy --dry-run",
-    "deploy": "wrangler deploy"
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && wrangler dev",
+    "check": "npm run build && node scripts/check.mjs",
+    "check:deploy": "npm run build && wrangler deploy --dry-run",
+    "deploy": "npm run check && wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "^4.164.0"

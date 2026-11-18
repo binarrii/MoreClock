@@ -1,16 +1,10 @@
-const cities = {
-  'Europe/London': { name: 'London', flag: '🇬🇧' },
-  'Asia/Hong_Kong': { name: 'Hong Kong', flag: '🇭🇰' },
-  'America/Los_Angeles': { name: 'San Francisco', flag: '🇺🇸' },
-  'Asia/Tokyo': { name: 'Tokyo', flag: '🇯🇵' },
-  'Europe/Berlin': { name: 'Berlin', flag: '🇩🇪' },
-};
+const { cities, dateLocale, timeLocale, animationLabels } = JSON.parse(document.getElementById('site-i18n').textContent);
 let previewZone = 'Asia/Hong_Kong';
 const citySelect = document.querySelector('#city-select');
 const prefix = document.querySelector('#prefix-input');
 const dateSelect = document.querySelector('#date-select');
 const bold = document.querySelector('#bold-check');
-const formatTime = (date, zone) => new Intl.DateTimeFormat('en-GB', {
+const formatTime = (date, zone) => new Intl.DateTimeFormat(timeLocale, {
   timeZone: zone, hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
 }).format(date);
 
@@ -22,7 +16,7 @@ function renderPreview(now) {
   document.querySelector('#preview-city').textContent = city.name;
   document.querySelector('#preview-flag').textContent = city.flag;
   document.querySelector('#preview-time').textContent = formatTime(now, previewZone);
-  document.querySelector('#preview-date').textContent = new Intl.DateTimeFormat('en-US', {
+  document.querySelector('#preview-date').textContent = new Intl.DateTimeFormat(dateLocale, {
     timeZone: previewZone, weekday: 'long', month: 'long', day: 'numeric',
   }).format(now);
   const zoneLabel = new Intl.DateTimeFormat('en', {
@@ -42,7 +36,7 @@ function renderSettings(now = new Date()) {
     if (dateSelect.value === 'both' || dateSelect.value === 'date') {
       options.month = 'short'; options.day = 'numeric';
     }
-    date = new Intl.DateTimeFormat('en-US', options).format(now);
+    date = new Intl.DateTimeFormat(dateLocale, options).format(now);
   }
   const output = document.querySelector('#settings-output');
   output.textContent = [prefix.value, date, formatTime(now, zone)].filter(Boolean).join(' ');
@@ -93,3 +87,21 @@ function tick() {
   window.setTimeout(tick, 60000 - (Date.now() % 60000) + 50);
 }
 tick();
+
+// Translate controls mounted asynchronously by the unchanged motion kit.
+if (typeof MutationObserver !== 'undefined') {
+  const host = document.querySelector('.hero__window');
+  const localizeAnimationLabels = () => {
+    for (const button of host.querySelectorAll('.loop-pause')) {
+      const label = button.classList.contains('is-paused') ? animationLabels.play : animationLabels.pause;
+      if (button.getAttribute('aria-label') !== label) button.setAttribute('aria-label', label);
+      if (button.title !== label) button.title = label;
+    }
+  };
+  if (host) {
+    new MutationObserver(localizeAnimationLabels).observe(host, {
+      childList: true, subtree: true, attributes: true, attributeFilter: ['aria-label', 'class'],
+    });
+    localizeAnimationLabels();
+  }
+}

@@ -1,0 +1,16 @@
+Relojes mundiales en la barra de menús del Mac|Consulta la hora de las ciudades que te importan desde la barra de menús. Elige la ciudad, la bandera y la fecha de cada reloj.|Información sobre MoreClock|Fuentes oficiales
+Saltar al contenido|Navegación principal|Relojes|Visualización|Preguntas|Descargar MoreClock|Abrir el menú|Ver los relojes|Ajustes…
+Londres|Hong Kong|San Francisco|Tokio|Berlín
+Una ciudad para cada reloj|Busca un lugar o una zona horaria y dale un nombre al reloj. Cada reloj tiene su propio elemento en la barra de menús.
+General|Acerca de|Zona horaria|Prefijo|Mostrar fecha|Desactivado|Fecha y día de la semana|Fecha|Día de la semana|Negrita|Barra de menús
+Abrir al iniciar sesión|Opcional|Idioma|Formato de hora|Según macOS|Cambia el idioma en MoreClock o en Ajustes del Sistema de macOS.
+Ver el código fuente|Configura la visualización de cada reloj|Muestra la fecha en Tokio y solo las horas y los minutos en Londres. Cada reloj tiene sus propios ajustes.|Elige el formato de fecha|Muestra el día, la fecha o ambos. Activa los segundos y la negrita en cada reloj si los necesitas.|Hora
+Elige el idioma de la app|MoreClock sigue el idioma del Mac y está disponible en 13 idiomas. El árabe y el persa se muestran de derecha a izquierda.
+Instalación y uso|Leer las notas de la versión ↗|Ajustes generales de MoreClock en chino simplificado con el selector de idioma
+¿Qué Mac son compatibles?|MoreClock funciona con macOS 26 o posterior en Mac con chip de Apple o procesador Intel.
+¿Por qué puede mostrar macOS un aviso?|Esta versión tiene una firma ad hoc y no está certificada por Apple.|Leer la guía de Apple para abrir apps
+¿Cómo abro los ajustes?|Elige Ajustes en el menú de un reloj o vuelve a abrir MoreClock desde Finder o Spotlight.
+¿Puedo cambiar el orden de los relojes?|Mantén pulsada la tecla Comando mientras arrastras. Arrastra un reloj fuera de la barra de menús para ocultarlo.
+¿Es compatible MoreClock con Atajos?|Sí. Puedes añadir, eliminar, mostrar u ocultar relojes, cambiar sus zonas horarias y consultar la hora.
+Leer la documentación|Añade otra zona horaria|Producto|Proyecto|Informar de un problema
+Versión|DMG universal|Pausar la animación|Reproducir la animación

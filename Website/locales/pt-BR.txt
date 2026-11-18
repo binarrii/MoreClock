@@ -1,0 +1,16 @@
+Relógios mundiais na barra de menus do Mac|Veja a hora nas cidades que importam para você, direto na barra de menus. Escolha a cidade, a bandeira e a exibição da data de cada relógio.|Informações sobre o MoreClock|Fontes oficiais
+Ir para o conteúdo|Navegação principal|Relógios|Exibição|Dúvidas|Baixar MoreClock|Abrir menu|Ver os relógios|Ajustes…
+Londres|Hong Kong|São Francisco|Tóquio|Berlim
+Uma cidade para cada relógio|Busque um local ou fuso horário e dê um nome ao relógio. Cada relógio ganha um item próprio na barra de menus.
+Geral|Sobre|Fuso horário|Prefixo|Exibição da data|Desativada|Data e dia da semana|Data|Dia da semana|Negrito|Barra de menus
+Abrir ao iniciar sessão|Opcional|Idioma|Formato de hora|Igual ao macOS|Altere o idioma no MoreClock ou nos Ajustes do Sistema do macOS.
+Ver o código-fonte|Ajuste a exibição de cada relógio|Mostre a data em Tóquio e apenas horas e minutos em Londres. Cada relógio tem ajustes próprios.|Escolha o formato da data|Mostre o dia da semana, a data ou ambos. Segundos e negrito são opcionais em cada relógio.|Hora
+Escolha o idioma do app|O MoreClock segue o idioma do Mac e oferece 13 idiomas, com layout da direita para a esquerda em árabe e persa.
+Instalação e uso|Leia as notas da versão ↗|Ajustes gerais do MoreClock em chinês simplificado com a opção de escolher o idioma
+Com quais Macs o MoreClock é compatível?|Requer o macOS 26 ou posterior e funciona em Macs com chip da Apple ou processador Intel.
+Por que o macOS pode exibir um aviso?|Esta versão tem assinatura ad hoc e não foi notarizada pela Apple.|Leia as orientações da Apple para abrir apps
+Como abro os ajustes?|Escolha Ajustes no menu de um relógio ou reabra o MoreClock no Finder ou no Spotlight.
+Posso reorganizar os relógios?|Mantenha a tecla Command pressionada ao arrastar. Arraste um relógio para fora da barra de menus para ocultá-lo.
+O MoreClock funciona com o app Atalhos?|Sim. Você pode adicionar, remover, exibir ou ocultar relógios, mudar fusos e consultar a hora.
+Leia a documentação|Adicione mais um fuso horário|Produto|Projeto|Relate um problema
+Versão|DMG universal|Pausar animação|Reproduzir animação

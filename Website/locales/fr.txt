@@ -1,0 +1,16 @@
+Horloges mondiales pour la barre des menus du Mac|Gardez l’heure des villes qui comptent dans votre barre des menus. Choisissez la ville, le drapeau et l’affichage de la date de chaque horloge.|Informations sur MoreClock|Sources officielles
+Aller au contenu|Navigation principale|Horloges|Affichage|Questions|Télécharger MoreClock|Ouvrir le menu|Voir les horloges|Réglages…
+Londres|Hong Kong|San Francisco|Tokyo|Berlin
+Une ville pour chaque horloge|Recherchez un lieu ou un fuseau horaire, puis nommez l’horloge. MoreClock ajoute une entrée distincte pour chaque horloge dans la barre des menus.
+Général|À propos|Fuseau horaire|Préfixe|Affichage de la date|Désactivé|Date et jour de la semaine|Date|Jour de la semaine|Gras|Barre des menus
+Lancer à l’ouverture de session|Facultatif|Langue|Format horaire|Comme dans macOS|Modifiez la langue dans MoreClock ou dans les Réglages Système de macOS.
+Voir le code source|Régler l’affichage de chaque horloge|Affichez la date à Tokyo et seulement les heures et minutes à Londres. Chaque horloge a ses propres options.|Choisir le format de date|Affichez le jour, la date ou les deux. Les secondes et le gras sont facultatifs pour chaque horloge.|Heure
+Choisir la langue de l’app|MoreClock suit la langue du Mac et prend en charge 13 langues, dont l’arabe et le persan avec affichage de droite à gauche.
+Installation et utilisation|Lire les notes de version ↗|Réglages généraux de MoreClock en chinois simplifié avec le choix de langue
+Quels Mac sont compatibles ?|MoreClock fonctionne à partir de macOS 26 sur les Mac à puce Apple et à processeur Intel.
+Pourquoi macOS peut-il afficher un avertissement ?|Cette version porte une signature ad hoc et n’a pas été notarisée par Apple.|Lire les consignes d’Apple pour ouvrir une app
+Comment ouvrir les réglages ?|Choisissez Réglages dans le menu d’une horloge, ou rouvrez MoreClock depuis le Finder ou Spotlight.
+Puis-je réorganiser les horloges ?|Maintenez Commande pendant le glissement pour changer l’ordre. Faites glisser une horloge hors de la barre des menus pour la masquer.
+MoreClock prend-il en charge Raccourcis ?|Oui. Vous pouvez ajouter, retirer, afficher ou masquer une horloge, modifier son fuseau horaire et obtenir l’heure.
+Lire la documentation|Ajouter un autre fuseau horaire|Produit|Projet|Signaler un problème
+Version|DMG universel|Mettre l’animation en pause|Relancer l’animation

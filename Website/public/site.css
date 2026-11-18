@@ -10,10 +10,90 @@
   --display-stretch: 96%; --ly-scale: 1.04;
 }
 /* Product-specific visuals. Layout, motion, buttons and page spacing come from the kit. */
+.language-picker { position:relative; }
+.language-picker summary { cursor:pointer; list-style:none; min-height:44px; align-items:center; gap:8px; }
+.language-picker summary::-webkit-details-marker { display:none; }
+.language-picker__flag { flex:0 0 1.35em; font-family:"Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; line-height:1; text-align:center; }
+.language-picker__chevron { display:grid; place-items:center; flex:none; width:16px; height:16px; }
+.language-picker__chevron::before {
+  content:"";
+  width:9px;
+  height:9px;
+  border-bottom:2px solid currentColor;
+  border-right:2px solid currentColor;
+  transform:translateY(-2px) rotate(45deg);
+}
+.language-picker[open] .language-picker__chevron::before { transform:translateY(2px) rotate(225deg); }
+.language-picker__options {
+  position:absolute;
+  inset-block-start:100%;
+  inset-inline-end:0;
+  z-index:2;
+  min-width:220px;
+  max-height:min(65dvh, 530px);
+  overflow-y:auto;
+  margin:0;
+  padding:8px;
+  list-style:none;
+  background:var(--surface);
+  border:1px solid var(--line-strong);
+  border-radius:var(--r-md);
+  color-scheme:dark;
+  scrollbar-width:thin;
+  scrollbar-color:color-mix(in oklab, var(--muted) 70%, var(--surface)) transparent;
+}
+@supports not (scrollbar-width:thin) {
+  .language-picker__options::-webkit-scrollbar { width:6px; }
+  .language-picker__options::-webkit-scrollbar-thumb {
+    background:color-mix(in oklab, var(--muted) 70%, var(--surface));
+    border-radius:999px;
+  }
+  .language-picker__options::-webkit-scrollbar-track { background:transparent; }
+}
+.language-picker__options a {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  min-height:44px;
+  padding:4px 12px;
+  border-radius:var(--r-sm);
+  text-align:start;
+}
+.language-picker__options a:hover,
+.language-picker__options a[aria-current="page"] { background:var(--g-alt); }
+.language-picker__options a:focus-visible { outline-offset:-2px; }
+.language-picker__options li:first-child { border-bottom:1px solid var(--line-strong); margin-bottom:4px; padding-bottom:4px; }
+@media (max-width:1023px) {
+  .nav.is-open .nav__item--language { display:block; }
+  .nav.is-open .language-picker summary { display:flex; }
+  .language-picker__options { position:static; max-height:none; }
+}
+[dir="rtl"] .nav__toggle, [dir="rtl"] .clock-menu__offset { margin-left:0; margin-inline-start:auto; }
+[dir="rtl"] .nav:not(.is-open) .nav__actions { margin-left:0; margin-inline-start:auto; }
+[dir="rtl"] .nav:not(.is-open) .nav__actions + .nav__toggle { margin-inline-start:0; }
+[dir="rtl"] .window-dots { left:auto; inset-inline-start:16px; }
+[dir="rtl"] .settings-row input:not([type="checkbox"]) { text-align:end; }
+[dir="rtl"] .clock-menu__offset { direction:ltr; }
+[dir="rtl"] .section-head, [dir="rtl"] .closing__cta { text-align:start; }
+@media (min-width:1024px) {
+  .nav--centre .nav__bar { grid-template-columns:minmax(max-content,1fr) auto minmax(max-content,1fr); }
+}
+/* Double the visible gap before the language switch: 28 → 56px, or 16 → 32px on smaller desktops. */
+@media (min-width:1280px) {
+  .nav__item--language { margin-inline-start:28px; }
+}
+@media (min-width:1024px) and (max-width:1279px) {
+  .nav--centre .nav__bar { column-gap:12px; }
+  .nav__item--language { margin-inline-start:16px; }
+}
 .hero--centred .hero__lead { color:var(--ink); }
 .btn--secondary { border:1px solid var(--muted); }
 .faq > .faq__item { padding-block:32px; }
 .faq > .faq__item:first-child { padding-top:0; }
+@media (min-width:1024px) and (max-width:1279px) {
+  #questions .faq > .faq__item { padding-block:16px; }
+  #questions .faq > .faq__item:first-child { padding-top:0; }
+}
 .faq-shot { margin-top:32px; height:calc(100svh - 420px); background:var(--surface); padding:24px; }
 @media (max-width:639px) {
   #questions .section-head { margin-bottom:24px; }

@@ -12,6 +12,11 @@ public/.taste-skill/
 .taste-skill/build.json
 .taste-skill/gate.json
 .taste-skill/live.html
+.taste-skill/build.done.json
+.taste-skill/gate/
+.taste-skill/bootstrap-i18n.mjs
+.taste-skill/i18n-*.json
+public/*/.taste-skill/
 public/assets/**
 !public/assets/system.css
 !public/assets/system.js

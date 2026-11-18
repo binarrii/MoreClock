@@ -1,0 +1,41 @@
+# MoreClock
+
+> زمان شهرهای دلخواهتان را در نوار منو ببینید. برای هر ساعت می‌توانید شهر، پرچم و شیوهٔ نمایش تاریخ را انتخاب کنید.
+
+## زبان
+
+- [Deutsch](https://moreclock.skyviiew.com/de/) · [MoreClock-Produktinformationen](https://moreclock.skyviiew.com/de/llms.txt)
+- [English](https://moreclock.skyviiew.com/) · [MoreClock product facts](https://moreclock.skyviiew.com/llms.txt)
+- [Español](https://moreclock.skyviiew.com/es/) · [Información sobre MoreClock](https://moreclock.skyviiew.com/es/llms.txt)
+- [Français](https://moreclock.skyviiew.com/fr/) · [Informations sur MoreClock](https://moreclock.skyviiew.com/fr/llms.txt)
+- [Italiano](https://moreclock.skyviiew.com/it/) · [Informazioni su MoreClock](https://moreclock.skyviiew.com/it/llms.txt)
+- [Português (Brasil)](https://moreclock.skyviiew.com/pt-BR/) · [Informações sobre o MoreClock](https://moreclock.skyviiew.com/pt-BR/llms.txt)
+- [Русский](https://moreclock.skyviiew.com/ru/) · [О приложении MoreClock](https://moreclock.skyviiew.com/ru/llms.txt)
+- [العربية](https://moreclock.skyviiew.com/ar/) · [معلومات عن MoreClock](https://moreclock.skyviiew.com/ar/llms.txt)
+- [فارسی](https://moreclock.skyviiew.com/fa/) · [اطلاعات MoreClock](https://moreclock.skyviiew.com/fa/llms.txt)
+- [한국어](https://moreclock.skyviiew.com/ko/) · [MoreClock 제품 정보](https://moreclock.skyviiew.com/ko/llms.txt)
+- [日本語](https://moreclock.skyviiew.com/ja/) · [MoreClockの製品情報](https://moreclock.skyviiew.com/ja/llms.txt)
+- [简体中文](https://moreclock.skyviiew.com/zh-CN/) · [MoreClock 产品信息](https://moreclock.skyviiew.com/zh-CN/llms.txt)
+- [繁體中文](https://moreclock.skyviiew.com/zh-Hant/) · [MoreClock 產品資訊](https://moreclock.skyviiew.com/zh-Hant/llms.txt)
+
+## اطلاعات MoreClock
+
+- نسخه 1.0.0 (7)
+- MoreClock به macOS 26 یا جدیدتر نیاز دارد و روی مک‌های دارای تراشهٔ اپل و پردازندهٔ اینتل اجرا می‌شود.
+- مکان یا منطقهٔ زمانی را جست‌وجو کنید و به ساعت نام بدهید. MoreClock برای هر ساعت یک مورد جداگانه در نوار منو اضافه می‌کند.
+- روز هفته، تاریخ یا هر دو را نمایش دهید. نمایش ثانیه و متن پررنگ برای هر ساعت اختیاری است.
+- MoreClock از زبان مک پیروی می‌کند و به ۱۳ زبان در دسترس است. عربی و فارسی با چیدمان راست‌به‌چپ نمایش داده می‌شوند.
+- بله. می‌توانید ساعت‌ها را اضافه، حذف، نمایش یا پنهان کنید، منطقهٔ زمانی را تغییر دهید و زمان را بخوانید.
+- «تنظیمات» را از منوی ساعت انتخاب کنید یا MoreClock را دوباره از Finder یا Spotlight باز کنید.
+- هنگام کشیدن ساعت کلید Command را نگه دارید. برای پنهان کردن ساعت، آن را از نوار منو بیرون بکشید.
+- این نسخه با امضای ad hoc منتشر شده و تأییدیهٔ رسمی اپل را ندارد.
+
+## منابع رسمی
+
+- [اطلاعات MoreClock](https://moreclock.skyviiew.com/fa/)
+- [خواندن راهنما](https://github.com/binarrii/MoreClock/blob/main/README.md)
+- [خواندن یادداشت‌های انتشار ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
+- [دانلود MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
+- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [گزارش مشکل](https://github.com/binarrii/MoreClock/issues)
+- [خواندن راهنمای اپل برای باز کردن برنامه‌ها](https://support.apple.com/en-us/102445)

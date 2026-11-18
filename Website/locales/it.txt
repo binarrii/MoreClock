@@ -1,0 +1,16 @@
+Orologi mondiali nella barra dei menu del Mac|Controlla l’ora delle città che ti interessano dalla barra dei menu. Scegli la città, la bandiera e la data per ogni orologio.|Informazioni su MoreClock|Fonti ufficiali
+Vai al contenuto|Navigazione principale|Orologi|Visualizzazione|Domande|Scarica MoreClock|Apri il menu|Guarda gli orologi|Impostazioni…
+Londra|Hong Kong|San Francisco|Tokyo|Berlino
+Una città per ogni orologio|Cerca un luogo o un fuso orario e assegna un nome all’orologio. MoreClock crea una voce distinta nella barra dei menu per ogni orologio.
+Generali|Informazioni|Fuso orario|Prefisso|Visualizzazione data|Disattivata|Data e giorno della settimana|Data|Giorno della settimana|Grassetto|Barra dei menu
+Avvia all’accesso|Facoltativo|Lingua|Formato ora|Come in macOS|Cambia la lingua in MoreClock o nelle Impostazioni di Sistema di macOS.
+Guarda il codice sorgente|Personalizza la visualizzazione degli orologi|Mostra la data a Tokyo e solo ore e minuti a Londra. Ogni orologio ha impostazioni proprie.|Scegli il formato della data|Mostra il giorno, la data o entrambi. Secondi e grassetto sono facoltativi per ogni orologio.|Ora
+Scegli la lingua dell’app|MoreClock segue la lingua del Mac ed è disponibile in 13 lingue. Arabo e persiano sono visualizzati da destra a sinistra.
+Installazione e utilizzo|Leggi le note di rilascio ↗|Impostazioni generali di MoreClock in cinese semplificato con selettore della lingua
+Quali Mac sono compatibili?|MoreClock richiede macOS 26 o successivo e funziona sui Mac con chip Apple o Intel.
+Perché macOS potrebbe mostrare un avviso?|Questa versione ha una firma ad hoc e non è autenticata da Apple.|Leggi la guida Apple per aprire le app
+Come apro le impostazioni?|Scegli Impostazioni dal menu di un orologio o riapri MoreClock dal Finder o da Spotlight.
+Posso riordinare gli orologi?|Tieni premuto Comando mentre trascini un orologio. Trascinalo fuori dalla barra dei menu per nasconderlo.
+MoreClock supporta Comandi Rapidi?|Sì. Puoi aggiungere, rimuovere, mostrare o nascondere orologi, cambiare il fuso orario e leggere l’ora.
+Leggi la documentazione|Aggiungi un altro fuso orario|Prodotto|Progetto|Segnala un problema
+Versione|DMG universale|Metti in pausa l’animazione|Riproduci l’animazione

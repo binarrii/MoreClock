@@ -1,0 +1,41 @@
+# MoreClock
+
+> 在選單列查看你關心的城市時間。每個時鐘都可以獨立選擇城市、加入旗幟，並設定日期顯示方式。
+
+## 語言
+
+- [Deutsch](https://moreclock.skyviiew.com/de/) · [MoreClock-Produktinformationen](https://moreclock.skyviiew.com/de/llms.txt)
+- [English](https://moreclock.skyviiew.com/) · [MoreClock product facts](https://moreclock.skyviiew.com/llms.txt)
+- [Español](https://moreclock.skyviiew.com/es/) · [Información sobre MoreClock](https://moreclock.skyviiew.com/es/llms.txt)
+- [Français](https://moreclock.skyviiew.com/fr/) · [Informations sur MoreClock](https://moreclock.skyviiew.com/fr/llms.txt)
+- [Italiano](https://moreclock.skyviiew.com/it/) · [Informazioni su MoreClock](https://moreclock.skyviiew.com/it/llms.txt)
+- [Português (Brasil)](https://moreclock.skyviiew.com/pt-BR/) · [Informações sobre o MoreClock](https://moreclock.skyviiew.com/pt-BR/llms.txt)
+- [Русский](https://moreclock.skyviiew.com/ru/) · [О приложении MoreClock](https://moreclock.skyviiew.com/ru/llms.txt)
+- [العربية](https://moreclock.skyviiew.com/ar/) · [معلومات عن MoreClock](https://moreclock.skyviiew.com/ar/llms.txt)
+- [فارسی](https://moreclock.skyviiew.com/fa/) · [اطلاعات MoreClock](https://moreclock.skyviiew.com/fa/llms.txt)
+- [한국어](https://moreclock.skyviiew.com/ko/) · [MoreClock 제품 정보](https://moreclock.skyviiew.com/ko/llms.txt)
+- [日本語](https://moreclock.skyviiew.com/ja/) · [MoreClockの製品情報](https://moreclock.skyviiew.com/ja/llms.txt)
+- [简体中文](https://moreclock.skyviiew.com/zh-CN/) · [MoreClock 产品信息](https://moreclock.skyviiew.com/zh-CN/llms.txt)
+- [繁體中文](https://moreclock.skyviiew.com/zh-Hant/) · [MoreClock 產品資訊](https://moreclock.skyviiew.com/zh-Hant/llms.txt)
+
+## MoreClock 產品資訊
+
+- 版本 1.0.0 (7)
+- 支援搭載 Apple 晶片或 Intel 處理器、執行 macOS 26 或更新版本的 Mac。
+- 搜尋地點或時區，再為時鐘命名。MoreClock 會為每個時鐘在選單列加入一個獨立項目。
+- 顯示星期、日期，或同時顯示兩者。每個時鐘也可獨立開啟秒數和粗體顯示。
+- MoreClock 會依照 Mac 的語言設定，提供 13 種語言。阿拉伯文和波斯文採用由右至左的版面。
+- 支援。你可以新增、移除、顯示或隱藏時鐘、變更時區及取得時間。
+- 在時鐘選單中選擇「設定」，或從 Finder 或 Spotlight 再次打開 MoreClock。
+- 按住 Command 鍵並拖移時鐘即可重新排列。將時鐘拖出選單列即可隱藏。
+- 這個版本採用臨時簽署（ad hoc），尚未經過 Apple 公證。
+
+## 官方資料
+
+- [MoreClock 產品資訊](https://moreclock.skyviiew.com/zh-Hant/)
+- [閱讀使用文件](https://github.com/binarrii/MoreClock/blob/main/README.zh-CN.md)
+- [閱讀版本資訊 ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
+- [下載 MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
+- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [回報問題](https://github.com/binarrii/MoreClock/issues)
+- [閱讀 Apple 的 App 開啟指南](https://support.apple.com/zh-tw/102445)

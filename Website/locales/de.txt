@@ -1,0 +1,16 @@
+Weltuhren für die Mac-Menüleiste|Behalte die Uhrzeit wichtiger Städte in deiner Menüleiste im Blick. Wähle für jede Uhr eine Stadt, eine Flagge und die Datumsanzeige.|MoreClock-Produktinformationen|Offizielle Quellen
+Zum Inhalt springen|Hauptnavigation|Uhren|Anzeige|Fragen|MoreClock laden|Menü öffnen|Uhren ansehen|Einstellungen …
+London|Hongkong|San Francisco|Tokio|Berlin
+Eine Stadt für jede Uhr|Suche nach einem Ort oder einer Zeitzone und gib der Uhr einen Namen. Jede Uhr erhält einen eigenen Eintrag in der Menüleiste.
+Allgemein|Über|Zeitzone|Präfix|Datumsanzeige|Aus|Datum und Wochentag|Datum|Wochentag|Fettschrift|Menüleiste
+Beim Anmelden starten|Optional|Sprache|Zeitformat|Wie in macOS|Die App-Sprache lässt sich in MoreClock oder in den macOS-Systemeinstellungen ändern.
+Quellcode ansehen|Anzeige für jede Uhr einstellen|Zeige in Tokio das Datum und in London nur Stunden und Minuten. Jede Uhr hat eigene Anzeigeoptionen.|Datumsformat wählen|Zeige Wochentag, Datum oder beides. Sekunden und Fettschrift sind für jede Uhr optional.|Uhrzeit
+Sprache der App wählen|MoreClock übernimmt die Sprache deines Macs und ist in 13 Sprachen verfügbar. Arabisch und Persisch werden von rechts nach links angezeigt.
+Installation und Bedienung|Versionshinweise lesen ↗|Allgemeine Einstellungen von MoreClock auf vereinfachtem Chinesisch mit Sprachauswahl
+Welche Macs werden unterstützt?|MoreClock läuft ab macOS 26 auf Macs mit Apple-Chip oder Intel-Prozessor.
+Warum zeigt macOS möglicherweise eine Warnung?|Diese Version ist ad hoc signiert und nicht von Apple notarisiert.|Apples Anleitung zum Öffnen von Apps lesen
+Wie öffne ich die Einstellungen?|Wähle „Einstellungen“ im Menü einer Uhr oder öffne MoreClock erneut im Finder oder in Spotlight.
+Kann ich die Uhren neu anordnen?|Halte beim Ziehen die Befehlstaste gedrückt. Ziehe eine Uhr aus der Menüleiste, um sie auszublenden.
+Unterstützt MoreClock Kurzbefehle?|Ja. Du kannst Uhren hinzufügen, entfernen, ein- oder ausblenden, Zeitzonen ändern und Zeiten abrufen.
+Dokumentation lesen|Eine weitere Zeitzone hinzufügen|Produkt|Projekt|Problem melden
+Version|Universelles DMG|Animation anhalten|Animation abspielen
