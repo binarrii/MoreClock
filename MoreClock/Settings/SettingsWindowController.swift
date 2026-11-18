@@ -2,7 +2,7 @@ import AppKit
 import SwiftUI
 
 /// The app owns its Settings window, so it opens reliably from a menu bar item.
-/// Native toolbar tabs: General first, then Clocks. Each tab sizes the window to its own
+/// Native toolbar tabs: General, Clocks, then About. Each tab sizes the window to its own
 /// content, and the window title follows the selected tab, as in System Settings.
 final class SettingsWindowController: NSWindowController, NSWindowDelegate {
     init() {
@@ -10,6 +10,7 @@ final class SettingsWindowController: NSWindowController, NSWindowDelegate {
         tabs.tabStyle = .toolbar
         tabs.addTabViewItem(Self.tab(String(localized: "General"), symbol: "gearshape", root: GeneralSettingsView()))
         tabs.addTabViewItem(Self.tab(String(localized: "Clocks"), symbol: "clock", root: ClocksSettingsView()))
+        tabs.addTabViewItem(Self.tab(String(localized: "About"), symbol: "info.circle", root: AboutSettingsView()))
         tabs.view.userInterfaceLayoutDirection = AppLayout.appKit
 
         let window = NSWindow(contentViewController: tabs)

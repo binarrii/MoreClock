@@ -18,6 +18,7 @@
 		690C28C817EF1BC32AE0AD52 /* MoreClockKit in Frameworks */ = {isa = PBXBuildFile; productRef = 86450CA3B7E42EE3F2A2D87F /* MoreClockKit */; };
 		8351E35EC46856FFC2845D68 /* ClockTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57285B8752A33299436947A0 /* ClockTicker.swift */; };
 		918878A2EFBB6D39DF4318A3 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BD866E214451105426FFC /* SettingsWindowController.swift */; };
+		96987F6F7BCB6FE1F1EC6609 /* AboutSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FAE427F21F05353FF3E996 /* AboutSettingsView.swift */; };
 		A66E476347A3750B17D347DA /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 33D07D392F41AC47AFF23077 /* AppShortcuts.xcstrings */; };
 		B031FD3E49D4E95B608A0664 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B702DFEFFEFDAFCFCB92EA0 /* MainMenu.swift */; };
 		BCC5D1E3014AFEDAA032E43E /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6CDA5FB585336A09FAE9C1 /* StatusItemController.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		0A6CDA5FB585336A09FAE9C1 /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
 		18877BA41A53D4382788EA9F /* MoreClockKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MoreClockKit; path = Packages/MoreClockKit; sourceTree = SOURCE_ROOT; };
+		18FAE427F21F05353FF3E996 /* AboutSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSettingsView.swift; sourceTree = "<group>"; };
 		29493D70A89ACCABD11FD8C0 /* TimeZonePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZonePicker.swift; sourceTree = "<group>"; };
 		30EA74D1DB2AC03D0ABA2212 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		33D07D392F41AC47AFF23077 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		391D69E7BDC81268ABB60DE0 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				18FAE427F21F05353FF3E996 /* AboutSettingsView.swift */,
 				E6015CB734F45E56250DB40D /* LanguageSetting.swift */,
 				771F8CD8D0815BA484AAB046 /* LaunchAtLogin.swift */,
 				6F41B4F1A7610D589FA876A6 /* SettingsScreen.swift */,
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96987F6F7BCB6FE1F1EC6609 /* AboutSettingsView.swift in Sources */,
 				29F511FB0A1539244695AA60 /* AppDelegate.swift in Sources */,
 				14140BC04982B341EE076069 /* ClockIntents.swift in Sources */,
 				8351E35EC46856FFC2845D68 /* ClockTicker.swift in Sources */,
@@ -358,6 +362,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MORECLOCK_BUILD_DATE = "";
+				MORECLOCK_GIT_COMMIT = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,6 +430,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MORECLOCK_BUILD_DATE = "";
+				MORECLOCK_GIT_COMMIT = "";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

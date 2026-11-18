@@ -19,6 +19,9 @@ settings:
     LOCALIZATION_PREFERS_STRING_CATALOGS: YES
     SWIFT_EMIT_LOC_STRINGS: YES
     DEAD_CODE_STRIPPING: YES
+    # Filled in by Scripts/build-release.sh; empty for Xcode and other development builds.
+    MORECLOCK_GIT_COMMIT: ""
+    MORECLOCK_BUILD_DATE: ""
 
 targets:
   MoreClock:
@@ -35,8 +38,10 @@ targets:
       path: MoreClock/Info.plist
       properties:
         CFBundleDisplayName: MoreClock
-        CFBundleShortVersionString: "0.1.1"
-        CFBundleVersion: "6"
+        CFBundleShortVersionString: "1.0.0"
+        CFBundleVersion: "7"
+        MoreClockGitCommit: "$(MORECLOCK_GIT_COMMIT)"
+        MoreClockBuildDate: "$(MORECLOCK_BUILD_DATE)"
         LSUIElement: true
         LSApplicationCategoryType: public.app-category.utilities
         LSMinimumSystemVersion: "$(MACOSX_DEPLOYMENT_TARGET)"

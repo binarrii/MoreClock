@@ -15,7 +15,7 @@ Extra clocks for the macOS menu bar, one menu bar item per time zone.
   - Other single-zone regions use their own IANA identifier; multi-zone regions keep Maps’ coordinate-based result.
 - Each clock's menu shows the full date, the UTC offset, the difference from local time, Copy Time and Hide This Clock.
 - ⌘-drag to reorder clocks. Drag a clock out of the menu bar to hide it.
-- **Settings:** two toolbar tabs: General first (launch at login and system settings links), then Clocks. The selected tab is remembered. Each clock has a collapsible section (the first is expanded). Removing a clock asks for confirmation.
+- **Settings:** three toolbar tabs: General (launch at login, language and system settings links), Clocks, and About (version, build, commit, build time and GitHub link). The selected tab is remembered. Each clock has a collapsible section (the first is expanded). Removing a clock asks for confirmation.
 - Shortcuts actions: Add, Remove, Show/Hide, Set Name, Set/Get Time Zone, Set Prefix, Set Date Display, Get Time.
 - Localized into English, Simplified and Traditional Chinese, Japanese, Korean, German, French, Spanish, Italian, Brazilian Portuguese, Russian, Arabic and Persian, including right-to-left layout for Arabic and Persian.
 - Launch at login through `SMAppService`.
@@ -44,6 +44,12 @@ xcodebuild -project MoreClock.xcodeproj -scheme MoreClock -derivedDataPath build
 
 ```bash
 open build/DerivedData/Build/Products/Debug/MoreClock.app
+```
+
+For a release build, use the script. It builds the universal app and records the commit (marked `-dirty` for uncommitted changes) and build time shown in Settings › About. Other builds show only the version and build number.
+
+```bash
+Scripts/build-release.sh
 ```
 
 The app has no Dock icon. On first launch it opens Settings. Open the app again from Finder or Spotlight to show Settings at any time, which is the way back if every clock is hidden.
