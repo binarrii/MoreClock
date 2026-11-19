@@ -97,9 +97,14 @@ for (const entry of locales) {
     assert.ok(geo.includes(`](${origin + edition.path}llms.txt)`));
   }
   assert.ok(sitemap.includes(`<loc>${canonical}</loc>`));
+  const readme = { 'zh-CN': 'docs/readmes/README.zh-CN.md', 'zh-Hant': 'docs/readmes/README.zh-Hant.md' }[locale] ?? 'README.md';
+  const documentation = `https://github.com/binarrii/MoreClock/blob/main/${readme}`;
+  assert.ok(fs.existsSync(new URL(`../../${readme}`, import.meta.url)), `${locale}: missing ${readme}`);
+  assert.ok(html.includes(`href="${documentation}"`), `${locale}: missing HTML documentation link`);
+  assert.ok(geo.includes(`](${documentation})`), `${locale}: missing GEO documentation link`);
   if (locale === 'zh-CN') {
     assert.match(m.meta_description, /菜单栏/); assert.ok(geo.includes('2,974,465'));
-    assert.ok(html.includes('README.zh-CN.md')); assert.ok(html.includes('https://support.apple.com/zh-cn/102445'));
+    assert.ok(html.includes('https://support.apple.com/zh-cn/102445'));
     assert.ok(!html.includes('World clocks for your Mac'));
   }
   checkInteractions(runtime, m);

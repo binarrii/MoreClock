@@ -1,10 +1,10 @@
 # MoreClock
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
 
 يعرض MoreClock توقيت عدة مناطق زمنية في شريط قوائم macOS. لكل ساعة عنصر مستقل في الشريط.
 
-![ساعة إضافية من MoreClock في شريط قوائم macOS](Design/Screenshots/menu-bar.png)
+![ساعة إضافية من MoreClock في شريط قوائم macOS](../../Design/Screenshots/menu-bar.png)
 
 ## التثبيت
 
@@ -28,4 +28,4 @@
 
 ## التطوير
 
-راجع الوثائق الإنجليزية للحصول على تعليمات [البناء والتشغيل](README.md#build-and-run) و[الاختبارات](README.md#tests) و[التعريب](README.md#localization).
+راجع الوثائق الإنجليزية للحصول على تعليمات [البناء والتشغيل](../../README.md#build-and-run) و[الاختبارات](../../README.md#tests) و[التعريب](../../README.md#localization).

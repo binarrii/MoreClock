@@ -1,10 +1,10 @@
 # MoreClock
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
 
 MoreClock 可在 macOS 選單列顯示多個時區的時間。每個時鐘都是選單列中的獨立項目。
 
-![MoreClock 在 macOS 選單列顯示額外的時鐘](Design/Screenshots/menu-bar.png)
+![MoreClock 在 macOS 選單列顯示額外的時鐘](../../Design/Screenshots/menu-bar.png)
 
 ## 安裝
 
@@ -28,4 +28,4 @@ MoreClock 可在 macOS 選單列顯示多個時區的時間。每個時鐘都是
 
 ## 開發
 
-詳細的[建置與執行](README.md#build-and-run)、[測試](README.md#tests)和[在地化](README.md#localization)說明請參閱英文 README。
+詳細的[建置與執行](../../README.md#build-and-run)、[測試](../../README.md#tests)和[在地化](../../README.md#localization)說明請參閱英文 README。

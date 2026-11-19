@@ -1,10 +1,10 @@
 # MoreClock
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
 
 MoreClock은 여러 시간대의 시계를 macOS 메뉴 막대에 추가합니다. 각 시계는 메뉴 막대에서 별도의 항목으로 표시됩니다.
 
-![macOS 메뉴 막대에 시계를 추가한 MoreClock](Design/Screenshots/menu-bar.png)
+![macOS 메뉴 막대에 시계를 추가한 MoreClock](../../Design/Screenshots/menu-bar.png)
 
 ## 설치
 
@@ -28,4 +28,4 @@ MoreClock은 여러 시간대의 시계를 macOS 메뉴 막대에 추가합니�
 
 ## 개발
 
-자세한 [빌드 및 실행](README.md#build-and-run), [테스트](README.md#tests), [현지화](README.md#localization) 방법은 영어 README를 참고하세요.
+자세한 [빌드 및 실행](../../README.md#build-and-run), [테스트](../../README.md#tests), [현지화](../../README.md#localization) 방법은 영어 README를 참고하세요.

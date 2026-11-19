@@ -1,16 +1,16 @@
 # MoreClock
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
 
 为 macOS 菜单栏添加更多时钟，每个时区对应一个菜单栏项目。
 
 ## 应用截图
 
-![MoreClock 在 macOS 菜单栏中显示第二个时区](Design/Screenshots/menu-bar.png)
+![MoreClock 在 macOS 菜单栏中显示第二个时区](../../Design/Screenshots/menu-bar.png)
 
 <p>
-  <img src="Design/Screenshots/general-settings.png" alt="MoreClock“通用”设置（简体中文界面）" width="45%">
-  <img src="Design/Screenshots/clock-settings.png" alt="MoreClock“时钟”设置（简体中文界面）" width="45%">
+  <img src="../../Design/Screenshots/general-settings.png" alt="MoreClock“通用”设置（简体中文界面）" width="45%">
+  <img src="../../Design/Screenshots/clock-settings.png" alt="MoreClock“时钟”设置（简体中文界面）" width="45%">
 </p>
 
 ## 功能特性

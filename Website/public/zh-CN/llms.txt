@@ -39,7 +39,7 @@
 ## 一手资料
 
 - [官方网站](https://moreclock.skyviiew.com/zh-CN/)
-- [源码和使用文档](https://github.com/binarrii/MoreClock/blob/main/README.zh-CN.md)
+- [源码和使用文档](https://github.com/binarrii/MoreClock/blob/main/docs/readmes/README.zh-CN.md)
 - [v1.0.1 更新说明](https://github.com/binarrii/MoreClock/releases/tag/v1.0.1)
 - [下载 MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/MoreClock-1.0.1-universal.dmg)
 - [SHA-256 校验和](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/SHA256SUMS.txt)

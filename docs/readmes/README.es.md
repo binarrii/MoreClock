@@ -1,10 +1,10 @@
 # MoreClock
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
 
 MoreClock muestra la hora de varias zonas horarias en la barra de menús de macOS. Cada reloj tiene su propio elemento en la barra.
 
-![MoreClock con un reloj adicional en la barra de menús de macOS](Design/Screenshots/menu-bar.png)
+![MoreClock con un reloj adicional en la barra de menús de macOS](../../Design/Screenshots/menu-bar.png)
 
 ## Instalación
 
@@ -28,4 +28,4 @@ La app publicada tiene una firma ad hoc y no ha pasado la notarización de Apple
 
 ## Desarrollo
 
-Consulta la documentación detallada en inglés para [compilar la app](README.md#build-and-run), [ejecutar pruebas](README.md#tests) y [trabajar con las traducciones](README.md#localization).
+Consulta la documentación detallada en inglés para [compilar la app](../../README.md#build-and-run), [ejecutar pruebas](../../README.md#tests) y [trabajar con las traducciones](../../README.md#localization).

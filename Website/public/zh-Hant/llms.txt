@@ -33,7 +33,7 @@
 ## 官方資料
 
 - [MoreClock 產品資訊](https://moreclock.skyviiew.com/zh-Hant/)
-- [閱讀使用文件](https://github.com/binarrii/MoreClock/blob/main/README.zh-CN.md)
+- [閱讀使用文件](https://github.com/binarrii/MoreClock/blob/main/docs/readmes/README.zh-Hant.md)
 - [閱讀版本資訊 ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.1)
 - [下載 MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/MoreClock-1.0.1-universal.dmg)
 - [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/SHA256SUMS.txt)

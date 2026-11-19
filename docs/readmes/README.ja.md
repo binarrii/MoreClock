@@ -1,10 +1,10 @@
 # MoreClock
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
 
 macOSのメニューバーに複数の時間帯の時計を追加するアプリです。時計はそれぞれ独立した項目として表示されます。
 
-![macOSのメニューバーに追加したMoreClockの時計](Design/Screenshots/menu-bar.png)
+![macOSのメニューバーに追加したMoreClockの時計](../../Design/Screenshots/menu-bar.png)
 
 ## インストール
 
@@ -28,4 +28,4 @@ macOSのメニューバーに複数の時間帯の時計を追加するアプリ
 
 ## 開発
 
-詳しい[ビルド手順](README.md#build-and-run)、[テスト](README.md#tests)、[ローカライズ](README.md#localization)については英語版READMEを参照してください。
+詳しい[ビルド手順](../../README.md#build-and-run)、[テスト](../../README.md#tests)、[ローカライズ](../../README.md#localization)については英語版READMEを参照してください。

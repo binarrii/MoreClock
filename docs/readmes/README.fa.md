@@ -1,10 +1,10 @@
 # MoreClock
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
 
 MoreClock زمان چند منطقهٔ زمانی را در نوار منوی macOS نمایش می‌دهد. هر ساعت مورد جداگانه‌ای در نوار منو دارد.
 
-![ساعت اضافهٔ MoreClock در نوار منوی macOS](Design/Screenshots/menu-bar.png)
+![ساعت اضافهٔ MoreClock در نوار منوی macOS](../../Design/Screenshots/menu-bar.png)
 
 ## نصب
 
@@ -28,4 +28,4 @@ MoreClock زمان چند منطقهٔ زمانی را در نوار منوی ma
 
 ## توسعه
 
-مستندات انگلیسی شامل دستورالعمل‌های [ساخت و اجرا](README.md#build-and-run)، [آزمایش](README.md#tests) و [بومی‌سازی](README.md#localization) است.
+مستندات انگلیسی شامل دستورالعمل‌های [ساخت و اجرا](../../README.md#build-and-run)، [آزمایش](../../README.md#tests) و [بومی‌سازی](../../README.md#localization) است.

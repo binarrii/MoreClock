@@ -1,10 +1,10 @@
 # MoreClock
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
 
 MoreClock показывает время в нескольких часовых поясах прямо в строке меню macOS. Каждые часы отображаются отдельно.
 
-![Дополнительные часы MoreClock в строке меню macOS](Design/Screenshots/menu-bar.png)
+![Дополнительные часы MoreClock в строке меню macOS](../../Design/Screenshots/menu-bar.png)
 
 ## Установка
 
@@ -28,4 +28,4 @@ MoreClock показывает время в нескольких часовых
 
 ## Разработка
 
-Подробные инструкции по [сборке и запуску](README.md#build-and-run), [тестам](README.md#tests) и [локализации](README.md#localization) доступны в английской документации.
+Подробные инструкции по [сборке и запуску](../../README.md#build-and-run), [тестам](../../README.md#tests) и [локализации](../../README.md#localization) доступны в английской документации.

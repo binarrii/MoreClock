@@ -74,7 +74,7 @@ const catalogs = locales.map(locale => {
 });
 
 function links(m) {
-  const readme = m.lang.startsWith('zh') ? 'README.zh-CN.md' : 'README.md';
+  const readme = m.lang.startsWith('zh') ? `docs/readmes/README.${m.id}.md` : 'README.md';
   return { documentation: `${repo}/blob/main/${readme}`, apple: `https://support.apple.com/${m.apple}/102445` };
 }
 

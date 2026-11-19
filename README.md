@@ -1,6 +1,6 @@
 # MoreClock
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md) · [العربية](README.ar.md) · [فارسی](README.fa.md)
+[English](README.md) · [简体中文](docs/readmes/README.zh-CN.md) · [繁體中文](docs/readmes/README.zh-Hant.md) · [日本語](docs/readmes/README.ja.md) · [한국어](docs/readmes/README.ko.md) · [Deutsch](docs/readmes/README.de.md) · [Français](docs/readmes/README.fr.md) · [Español](docs/readmes/README.es.md) · [Italiano](docs/readmes/README.it.md) · [Português (Brasil)](docs/readmes/README.pt-BR.md) · [Русский](docs/readmes/README.ru.md) · [العربية](docs/readmes/README.ar.md) · [فارسی](docs/readmes/README.fa.md)
 
 Extra clocks for the macOS menu bar, one menu bar item per time zone.
 
