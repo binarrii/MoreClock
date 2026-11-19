@@ -20,7 +20,7 @@
 
 ## معلومات عن MoreClock
 
-- الإصدار 1.0.0 (7)
+- الإصدار 1.0.1 (8)
 - يتطلب MoreClock نظام macOS 26 أو أحدث ويدعم أجهزة Mac المزودة بشرائح Apple أو معالجات Intel.
 - ابحث عن مكان أو منطقة زمنية، ثم اختر اسمًا للساعة. يضيف MoreClock عنصرًا منفصلًا لكل ساعة في شريط القوائم.
 - اعرض يوم الأسبوع أو التاريخ أو كليهما. يمكنك تفعيل الثواني والخط العريض لكل ساعة.
@@ -34,8 +34,8 @@
 
 - [معلومات عن MoreClock](https://moreclock.skyviiew.com/ar/)
 - [اقرأ الوثائق](https://github.com/binarrii/MoreClock/blob/main/README.md)
-- [اقرأ ملاحظات الإصدار ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
-- [نزّل MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
-- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [اقرأ ملاحظات الإصدار ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.1)
+- [نزّل MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/MoreClock-1.0.1-universal.dmg)
+- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/SHA256SUMS.txt)
 - [أبلغ عن مشكلة](https://github.com/binarrii/MoreClock/issues)
 - [اقرأ دليل Apple لفتح التطبيقات](https://support.apple.com/ar-sa/102445)

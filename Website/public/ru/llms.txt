@@ -20,7 +20,7 @@
 
 ## О приложении MoreClock
 
-- Версия 1.0.0 (7)
+- Версия 1.0.1 (8)
 - Нужна macOS 26 или новее. Поддерживаются Mac с чипами Apple и процессорами Intel.
 - Найдите место или часовой пояс и задайте название. Для каждых часов MoreClock добавит отдельный элемент в строку меню.
 - Показывайте день недели, дату или оба значения. Секунды и полужирный шрифт включаются отдельно для каждых часов.
@@ -34,8 +34,8 @@
 
 - [О приложении MoreClock](https://moreclock.skyviiew.com/ru/)
 - [Читать документацию](https://github.com/binarrii/MoreClock/blob/main/README.md)
-- [Читать примечания к выпуску ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
-- [Скачать MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
-- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [Читать примечания к выпуску ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.1)
+- [Скачать MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/MoreClock-1.0.1-universal.dmg)
+- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/SHA256SUMS.txt)
 - [Сообщить о проблеме](https://github.com/binarrii/MoreClock/issues)
 - [Читать инструкцию Apple по открытию приложений](https://support.apple.com/ru-ru/102445)

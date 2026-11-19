@@ -36,7 +36,7 @@ for (const entry of locales) {
   assert.equal((html.match(/property="og:locale:alternate"/g) ?? []).length, locales.length - 1);
   for (const [lang, url] of Object.entries(expectedAlternates)) assert.ok(html.includes(`<link rel="alternate" hreflang="${lang}" href="${url}">`), `${locale}: missing alternate ${lang}`);
   assert.equal((html.match(/hreflang="x-default"/g) ?? []).length, 1);
-  assert.equal(app.name, 'MoreClock'); assert.equal(app.softwareVersion, '1.0.0');
+  assert.equal(app.name, 'MoreClock'); assert.equal(app.softwareVersion, '1.0.1');
   assert.equal(app.inLanguage.length, 13);
   assert.equal(app.description, original ? m.app_description : m.clocks_lead);
   assert.deepEqual(app.featureList, original ? m.features : [m.clocks_lead, m.date_lead, m.language_lead, m.faq_shortcuts_answer]);
@@ -44,7 +44,12 @@ for (const entry of locales) {
   assert.equal(page.description, original ? m.meta_description : m.hero_lead);
   assert.deepEqual(website.inLanguage, locales.map(item => item.lang));
   assert.deepEqual(app.inLanguage, website.inLanguage);
-  assert.match(app.downloadUrl, /^https:\/\/github\.com\/binarrii\/MoreClock\/releases\/download\/v1\.0\.0\//);
+  const releaseBase = 'https://github.com/binarrii/MoreClock/releases';
+  assert.equal(app.fileSize, '2974465 bytes');
+  assert.equal(app.downloadUrl, `${releaseBase}/download/v1.0.1/MoreClock-1.0.1-universal.dmg`);
+  assert.equal((html.split(`href="${app.downloadUrl}"`).length - 1), 3);
+  assert.equal(app.releaseNotes, `${releaseBase}/tag/v1.0.1`);
+  assert.ok(html.includes(`href="${app.releaseNotes}"`));
   assert.ok(!html.includes('{{'), `${locale}: unresolved template token`);
   assert.ok(html.includes(m.hero_title)); assert.ok(html.includes(m.hero_lead));
   const runtime = scriptData(html, 'site-i18n');
@@ -93,7 +98,7 @@ for (const entry of locales) {
   }
   assert.ok(sitemap.includes(`<loc>${canonical}</loc>`));
   if (locale === 'zh-CN') {
-    assert.match(m.meta_description, /菜单栏/); assert.ok(geo.includes('2,803,364'));
+    assert.match(m.meta_description, /菜单栏/); assert.ok(geo.includes('2,974,465'));
     assert.ok(html.includes('README.zh-CN.md')); assert.ok(html.includes('https://support.apple.com/zh-cn/102445'));
     assert.ok(!html.includes('World clocks for your Mac'));
   }

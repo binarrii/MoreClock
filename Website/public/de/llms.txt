@@ -20,7 +20,7 @@
 
 ## MoreClock-Produktinformationen
 
-- Version 1.0.0 (7)
+- Version 1.0.1 (8)
 - MoreClock läuft ab macOS 26 auf Macs mit Apple-Chip oder Intel-Prozessor.
 - Suche nach einem Ort oder einer Zeitzone und gib der Uhr einen Namen. Jede Uhr erhält einen eigenen Eintrag in der Menüleiste.
 - Zeige Wochentag, Datum oder beides. Sekunden und Fettschrift sind für jede Uhr optional.
@@ -34,8 +34,8 @@
 
 - [MoreClock-Produktinformationen](https://moreclock.skyviiew.com/de/)
 - [Dokumentation lesen](https://github.com/binarrii/MoreClock/blob/main/README.md)
-- [Versionshinweise lesen ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
-- [MoreClock laden](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
-- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [Versionshinweise lesen ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.1)
+- [MoreClock laden](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/MoreClock-1.0.1-universal.dmg)
+- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/SHA256SUMS.txt)
 - [Problem melden](https://github.com/binarrii/MoreClock/issues)
 - [Apples Anleitung zum Öffnen von Apps lesen](https://support.apple.com/de-de/102445)

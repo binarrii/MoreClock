@@ -20,7 +20,7 @@
 
 ## MoreClock 제품 정보
 
-- 버전 1.0.0 (7)
+- 버전 1.0.1 (8)
 - Apple Silicon 또는 Intel 프로세서가 탑재된 Mac에서 macOS 26 이상이 필요합니다.
 - 장소나 시간대를 검색하고 시계에 이름을 붙이세요. MoreClock은 시계마다 메뉴 막대에 별도 항목을 추가합니다.
 - 요일, 날짜 또는 둘 다 표시하세요. 초와 굵은 글씨도 시계마다 설정할 수 있습니다.
@@ -34,8 +34,8 @@
 
 - [MoreClock 제품 정보](https://moreclock.skyviiew.com/ko/)
 - [사용 문서 읽기](https://github.com/binarrii/MoreClock/blob/main/README.md)
-- [릴리스 노트 읽기 ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
-- [MoreClock 다운로드](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
-- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [릴리스 노트 읽기 ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.1)
+- [MoreClock 다운로드](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/MoreClock-1.0.1-universal.dmg)
+- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/SHA256SUMS.txt)
 - [문제 신고](https://github.com/binarrii/MoreClock/issues)
 - [Apple의 앱 열기 안내 읽기](https://support.apple.com/ko-kr/102445)

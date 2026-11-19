@@ -20,10 +20,10 @@
 
 ## Product facts
 
-- Current release: v1.0.0, build 7.
+- Current release: v1.0.1, build 8.
 - Minimum operating system: macOS 26.
 - Architecture: one universal app for Apple silicon and Intel Macs.
-- Download: a 2,803,364-byte DMG hosted on GitHub Releases.
+- Download: a 2,974,465-byte DMG hosted on GitHub Releases.
 - Each configured clock appears as a separate menu bar item.
 - A clock can have a custom name, a prefix such as a country flag, optional seconds, optional bold text, and a date with the weekday, calendar date, or both.
 - Clock names appear in Settings, the clock menu and Shortcuts. The menu bar displays the prefix, optional date and time.
@@ -33,15 +33,15 @@
 - Interface languages: English, Simplified Chinese, Traditional Chinese, Japanese, Korean, German, French, Spanish, Italian, Brazilian Portuguese, Russian, Arabic and Persian. Arabic and Persian support right-to-left layout.
 - Shortcuts actions can add, remove, show and hide clocks, edit clock configuration, and read times.
 - Command-drag a clock to reorder it. Drag it out of the menu bar to hide it. Open MoreClock again from Finder or Spotlight to return to Settings.
-- The v1.0.0 download is ad-hoc signed and not notarized by Apple. macOS may block first launch. Consult Apple's app-opening guidance before choosing to open it.
+- The v1.0.1 download is ad-hoc signed and not notarized by Apple. macOS may block first launch. Consult Apple's app-opening guidance before choosing to open it.
 - The website is a product preview; its interactive controls do not configure the installed macOS app.
 
 ## Primary sources
 
 - [Official website](https://moreclock.skyviiew.com/)
 - [Source and documentation](https://github.com/binarrii/MoreClock/blob/main/README.md)
-- [Release v1.0.0](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
-- [Download MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
-- [SHA-256 checksums](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [Release v1.0.1](https://github.com/binarrii/MoreClock/releases/tag/v1.0.1)
+- [Download MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/MoreClock-1.0.1-universal.dmg)
+- [SHA-256 checksums](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/SHA256SUMS.txt)
 - [Report an issue](https://github.com/binarrii/MoreClock/issues)
 - [Apple's app-opening guidance](https://support.apple.com/en-us/102445)

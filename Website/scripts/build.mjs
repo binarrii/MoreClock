@@ -9,7 +9,10 @@ const publicDir = path.join(project, 'public');
 const template = fs.readFileSync(path.join(project, 'templates/index.html'), 'utf8');
 const origin = 'https://moreclock.skyviiew.com';
 const repo = 'https://github.com/binarrii/MoreClock';
-const version = '1.0.0';
+const version = '1.0.1';
+const build = 8;
+const dmgBytes = 2974465;
+const dmgSize = `${(dmgBytes / 1_000_000).toFixed(1)} MB`;
 const release = `${repo}/releases/tag/v${version}`;
 const releaseAssets = `${repo}/releases/download/v${version}`;
 const download = `${releaseAssets}/MoreClock-${version}-universal.dmg`;
@@ -44,8 +47,8 @@ const catalogs = locales.map(locale => {
     tabs_aria: messages.settings_link,
     system_default: locale.system,
     hero_version: `${messages.version_label} ${version} · macOS 26+`,
-    about_version: `${messages.version_label} ${version} (7)`,
-    close_version: `${messages.version_label} ${version} · ${messages.universal_label} · 2.7 MB`,
+    about_version: `${messages.version_label} ${version} (${build})`,
+    close_version: `${messages.version_label} ${version} · ${messages.universal_label} · ${dmgSize}`,
     preview_date: format({ weekday: 'long', month: 'long', day: 'numeric' }),
     date_example_weekday: dateExample({ weekday: 'short' }),
     date_example_date: dateExample({ month: 'short', day: 'numeric' }),
@@ -59,7 +62,7 @@ const catalogs = locales.map(locale => {
     geo_facts_heading: messages.facts_label,
     geo_languages_heading: messages.language,
     geo_facts: [
-      `${messages.version_label} ${version} (7)`, messages.faq_compat_answer,
+      `${messages.version_label} ${version} (${build})`, messages.faq_compat_answer,
       messages.clocks_lead, messages.date_lead, messages.language_lead,
       messages.faq_shortcuts_answer, messages.faq_settings_answer,
       messages.faq_arrange_answer, messages.faq_warning_answer,
@@ -92,7 +95,7 @@ function seoHead(m) {
         isPartOf: { '@id': `${origin}/#website` }, mainEntity: { '@id': `${origin}/#app` }, inLanguage: m.lang, primaryImageOfPage: image },
       { '@type': 'SoftwareApplication', '@id': `${origin}/#app`, name: 'MoreClock', url, description: m.app_description,
         applicationCategory: 'UtilitiesApplication', operatingSystem: 'macOS 26+', softwareVersion: version,
-        processorRequirements: 'Apple silicon, Intel', downloadUrl: download, fileSize: '2803364 bytes', releaseNotes: release,
+        processorRequirements: 'Apple silicon, Intel', downloadUrl: download, fileSize: `${dmgBytes} bytes`, releaseNotes: release,
         image: appIcon, screenshot: `${origin}/media/clock-settings.png`, sameAs: repo,
         inLanguage: languageTags, featureList: m.features },
       { '@type': 'FAQPage', '@id': `${url}#questions`, isPartOf: { '@id': `${url}#webpage` }, inLanguage: m.lang, mainEntity: faq },
@@ -156,7 +159,7 @@ for (const m of catalogs) {
     runtime_messages: json({ locale: m.id, dateLocale: m.date_locale, timeLocale: m.time_locale, cities, animationLabels: { pause: m.animation_pause, play: m.animation_play } }),
   };
   const values = { ...m, html_lang: m.lang, locale: m.id, locale_routes: JSON.stringify(routes), documentation_url: sourceLinks.documentation,
-    apple_guidance_url: sourceLinks.apple, sentence_end: m.sentence_end ?? (m.id === 'zh-CN' ? '。' : '.') };
+    apple_guidance_url: sourceLinks.apple, download_url: download, release_url: release, sentence_end: m.sentence_end ?? (m.id === 'zh-CN' ? '。' : '.') };
   const html = template.replace(/\{\{([a-z0-9_]+)\}\}/g, (_, key) => {
     if (Object.hasOwn(raw, key)) return raw[key];
     if (!Object.hasOwn(values, key) || typeof values[key] !== 'string' || !values[key].trim()) throw new Error(`Missing template key: ${m.id}.${key}`);

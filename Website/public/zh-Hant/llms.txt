@@ -20,7 +20,7 @@
 
 ## MoreClock 產品資訊
 
-- 版本 1.0.0 (7)
+- 版本 1.0.1 (8)
 - 支援搭載 Apple 晶片或 Intel 處理器、執行 macOS 26 或更新版本的 Mac。
 - 搜尋地點或時區，再為時鐘命名。MoreClock 會為每個時鐘在選單列加入一個獨立項目。
 - 顯示星期、日期，或同時顯示兩者。每個時鐘也可獨立開啟秒數和粗體顯示。
@@ -34,8 +34,8 @@
 
 - [MoreClock 產品資訊](https://moreclock.skyviiew.com/zh-Hant/)
 - [閱讀使用文件](https://github.com/binarrii/MoreClock/blob/main/README.zh-CN.md)
-- [閱讀版本資訊 ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
-- [下載 MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
-- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [閱讀版本資訊 ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.1)
+- [下載 MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/MoreClock-1.0.1-universal.dmg)
+- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/SHA256SUMS.txt)
 - [回報問題](https://github.com/binarrii/MoreClock/issues)
 - [閱讀 Apple 的 App 開啟指南](https://support.apple.com/zh-tw/102445)

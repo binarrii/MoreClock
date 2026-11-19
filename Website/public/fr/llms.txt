@@ -20,7 +20,7 @@
 
 ## Informations sur MoreClock
 
-- Version 1.0.0 (7)
+- Version 1.0.1 (8)
 - MoreClock fonctionne à partir de macOS 26 sur les Mac à puce Apple et à processeur Intel.
 - Recherchez un lieu ou un fuseau horaire, puis nommez l’horloge. MoreClock ajoute une entrée distincte pour chaque horloge dans la barre des menus.
 - Affichez le jour, la date ou les deux. Les secondes et le gras sont facultatifs pour chaque horloge.
@@ -34,8 +34,8 @@
 
 - [Informations sur MoreClock](https://moreclock.skyviiew.com/fr/)
 - [Lire la documentation](https://github.com/binarrii/MoreClock/blob/main/README.md)
-- [Lire les notes de version ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
-- [Télécharger MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
-- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [Lire les notes de version ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.1)
+- [Télécharger MoreClock](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/MoreClock-1.0.1-universal.dmg)
+- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/SHA256SUMS.txt)
 - [Signaler un problème](https://github.com/binarrii/MoreClock/issues)
 - [Lire les consignes d’Apple pour ouvrir une app](https://support.apple.com/fr-fr/102445)

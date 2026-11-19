@@ -2,7 +2,7 @@ World clocks for your Mac
 Keep the time in the places that matter, right in your menu bar. Give each clock its own city, flag and date.
 Download MoreClock
 See the clocks
-Version 1.0.0 · macOS 26+ · Apple silicon & Intel
+Version 1.0.1 · macOS 26+ · Apple silicon & Intel
 
 Choose a city for each clock
 Search for a place or a time zone, then give it a name. MoreClock adds a separate item to your menu bar for every clock.
@@ -27,5 +27,5 @@ Can I automate a clock?
 Yes. Shortcuts can add, remove, show and hide clocks, change their time zones and read the time.
 
 Add your next time zone
-Version 1.0.0 · Universal DMG · 2.7 MB
+Version 1.0.1 · Universal DMG · 3.0 MB
 Download MoreClock

@@ -20,7 +20,7 @@
 
 ## MoreClockの製品情報
 
-- バージョン 1.0.0 (7)
+- バージョン 1.0.1 (8)
 - macOS 26以降を搭載したAppleシリコンまたはIntelプロセッサのMacに対応しています。
 - 場所や時間帯を検索し、時計に名前を付けます。時計ごとにメニューバーに個別の項目が追加されます。
 - 曜日、日付、または両方を表示できます。秒と太字も時計ごとに切り替えられます。
@@ -34,8 +34,8 @@
 
 - [MoreClockの製品情報](https://moreclock.skyviiew.com/ja/)
 - [ドキュメントを読む](https://github.com/binarrii/MoreClock/blob/main/README.md)
-- [リリースノートを読む ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.0)
-- [MoreClockをダウンロード](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/MoreClock-1.0.0-universal.dmg)
-- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.0/SHA256SUMS.txt)
+- [リリースノートを読む ↗](https://github.com/binarrii/MoreClock/releases/tag/v1.0.1)
+- [MoreClockをダウンロード](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/MoreClock-1.0.1-universal.dmg)
+- [SHA-256](https://github.com/binarrii/MoreClock/releases/download/v1.0.1/SHA256SUMS.txt)
 - [問題を報告](https://github.com/binarrii/MoreClock/issues)
 - [Appleのアプリ起動ガイドを読む](https://support.apple.com/ja-jp/102445)
