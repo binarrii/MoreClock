@@ -28,7 +28,7 @@ Extra clocks for the macOS menu bar, one menu bar item per time zone.
   - Other single-zone regions use their own IANA identifier; multi-zone regions keep Maps’ coordinate-based result.
 - Each clock's menu shows the full date, the UTC offset, the difference from local time, Copy Time and Hide This Clock.
 - ⌘-drag to reorder clocks. Drag a clock out of the menu bar to hide it.
-- **Settings:** three toolbar tabs: General (launch at login, language and system settings links), Clocks, and About (version, build, commit, build time and GitHub link). The selected tab is remembered. Each clock has a collapsible section (the first is expanded). Removing a clock asks for confirmation.
+- **Settings:** three toolbar tabs: General (launch at login, language and system settings links), Clocks, and About (version, build, commit, build time, and links to the website and GitHub). The selected tab is remembered. Each clock has a collapsible section (the first is expanded). Removing a clock asks for confirmation.
 - Shortcuts actions: Add, Remove, Show/Hide, Set Name, Set/Get Time Zone, Set Prefix, Set Date Display, Get Time.
 - Localized into English, Simplified and Traditional Chinese, Japanese, Korean, German, French, Spanish, Italian, Brazilian Portuguese, Russian, Arabic and Persian, including right-to-left layout for Arabic and Persian.
 - Launch at login through `SMAppService`.
@@ -68,20 +68,6 @@ Scripts/build-release.sh
 The app has no Dock icon. On first launch it opens Settings. Open the app again from Finder or Spotlight to show Settings at any time, which is the way back if every clock is hidden.
 
 If a clock doesn't appear, the notch or other items may be covering it, or macOS may be hiding it. Check **System Settings › Menu Bar** (on macOS 26).
-
-## Upgrading from v0.1.0
-
-Version 0.1.1 uses the Skyviiew application identity. macOS therefore gives it a separate preferences domain and sandbox container.
-
-To keep your clocks and app language, keep a copy of the previous MoreClock app before replacing it. Quit all copies of MoreClock, then run the settings-transfer helper with the previous app and the new app as arguments:
-
-```bash
-bash Scripts/migrate-settings.sh "/path/to/previous/MoreClock.app" "/Applications/MoreClock.app"
-```
-
-The DMG also includes this helper as `Migrate Settings.sh`. It initializes the new container through macOS, backs up preferences inside the previous app’s private data, and copies settings without deleting the previous preferences. It refuses to overwrite different clocks already configured in the new app. If the app was already replaced, the previous release’s mounted DMG can supply the previous app path.
-
-Enable Launch at login again if you used it. Existing Shortcuts may need to be updated to use the new app identity.
 
 ## Tests
 

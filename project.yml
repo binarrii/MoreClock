@@ -38,8 +38,8 @@ targets:
       path: MoreClock/Info.plist
       properties:
         CFBundleDisplayName: MoreClock
-        CFBundleShortVersionString: "1.0.0"
-        CFBundleVersion: "7"
+        CFBundleShortVersionString: "1.0.1"
+        CFBundleVersion: "8"
         MoreClockGitCommit: "$(MORECLOCK_GIT_COMMIT)"
         MoreClockBuildDate: "$(MORECLOCK_BUILD_DATE)"
         LSUIElement: true

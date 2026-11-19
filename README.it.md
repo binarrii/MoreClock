@@ -26,8 +26,6 @@ L’app distribuita ha una firma ad hoc. Apple non l’ha autenticata e macOS po
 - In Generali puoi scegliere la lingua dell’app e avviarla all’accesso. La lingua predefinita segue macOS. In Informazioni trovi la versione e i dettagli della build.
 - Con Comandi Rapidi puoi aggiungere, rimuovere, mostrare, nascondere e configurare gli orologi e leggerne l’ora.
 
-## Aggiornamenti e sviluppo
-
-L’aggiornamento dalla versione 0.1.1 conserva le impostazioni. Se provieni dalla versione 0.1.0, usa lo script di migrazione per trasferire le impostazioni. [Guida alla migrazione](README.md#upgrading-from-v010)
+## Sviluppo
 
 La documentazione in inglese descrive la [compilazione](README.md#build-and-run), i [test](README.md#tests) e la [localizzazione](README.md#localization).

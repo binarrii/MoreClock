@@ -26,8 +26,6 @@ L’app publiée porte une signature ad hoc. Elle n’a pas été notarisée par
 - Dans l’onglet Général, choisissez la langue de l’app et si elle s’ouvre à la connexion. La langue du système suit macOS. L’onglet À propos indique la version et la build.
 - Utilisez Raccourcis pour ajouter, retirer, afficher, masquer ou configurer des horloges et consulter leur heure.
 
-## Mise à jour et développement
-
-La mise à jour depuis la version 0.1.1 conserve vos réglages. Depuis la version 0.1.0, utilisez l’utilitaire de migration pour transférer les réglages associés à l’ancienne identité de l’app. [Guide de migration](README.md#upgrading-from-v010)
+## Développement
 
 La documentation en anglais détaille la [compilation](README.md#build-and-run), les [tests](README.md#tests) et la [localisation](README.md#localization).

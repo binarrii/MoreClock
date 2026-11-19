@@ -26,8 +26,6 @@ Die veröffentlichte App ist ad hoc signiert. Apple hat sie nicht notarisiert, d
 - Unter „Allgemein“ kannst du den Start bei der Anmeldung aktivieren und die App-Sprache ändern. „Systemstandard“ folgt macOS. Unter „Über“ findest du die Version und Build-Informationen.
 - Mit Kurzbefehlen kannst du Uhren hinzufügen, entfernen, ein- oder ausblenden, einstellen und ihre Zeit abfragen.
 
-## Updates und Entwicklung
-
-Beim Update von 0.1.1 bleiben die Einstellungen erhalten. Beim Wechsel von 0.1.0 überträgt das Migrationsskript die Einstellungen von der alten App-Identität. [Migrationsanleitung](README.md#upgrading-from-v010)
+## Entwicklung
 
 Die englische Dokumentation enthält die ausführlichen [Build-Anweisungen](README.md#build-and-run), [Tests](README.md#tests) und [Hinweise zur Lokalisierung](README.md#localization).

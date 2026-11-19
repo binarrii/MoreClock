@@ -26,8 +26,6 @@ La app publicada tiene una firma ad hoc y no ha pasado la notarización de Apple
 - En General puedes elegir el idioma de la app y abrirla al iniciar sesión. El idioma del sistema sigue los ajustes de macOS. Consulta la versión en Acerca de.
 - Atajos permite añadir, eliminar, mostrar, ocultar y configurar relojes, además de consultar su hora.
 
-## Actualizaciones y desarrollo
-
-Si actualizas desde la versión 0.1.1, se conservan tus ajustes. Para actualizar desde la versión 0.1.0 y conservarlos, usa la herramienta de migración. [Guía de migración](README.md#upgrading-from-v010)
+## Desarrollo
 
 Consulta la documentación detallada en inglés para [compilar la app](README.md#build-and-run), [ejecutar pruebas](README.md#tests) y [trabajar con las traducciones](README.md#localization).

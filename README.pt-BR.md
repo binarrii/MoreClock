@@ -26,8 +26,6 @@ O app distribuído tem assinatura ad hoc e não foi notarizado pela Apple. O mac
 - Na aba Geral, escolha o idioma do app e se ele deve abrir ao iniciar a sessão. A opção padrão segue o macOS. Na aba Sobre, veja a versão e os dados da compilação.
 - Use o app Atalhos para adicionar, remover, mostrar, ocultar e configurar relógios ou consultar a hora.
 
-## Atualizações e desenvolvimento
-
-Ao atualizar da versão 0.1.1, os ajustes são preservados. Para migrar da versão 0.1.0, use o script de transferência de ajustes. [Guia de migração](README.md#upgrading-from-v010)
+## Desenvolvimento
 
 A documentação em inglês cobre [compilação e execução](README.md#build-and-run), [testes](README.md#tests) e [localização](README.md#localization).

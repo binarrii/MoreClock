@@ -26,8 +26,6 @@ MoreClock 可在 macOS 選單列顯示多個時區的時間。每個時鐘都是
 - 在「一般」中可以設定登入時開啟和 App 語言。「系統預設」會依照 macOS 的語言設定。在「關於」中可查看版本和建置資訊。
 - 「捷徑」可新增、移除、顯示、隱藏或設定時鐘，也可以取得時鐘的時間。
 
-## 更新與開發
-
-從 0.1.1 更新會保留設定。從 0.1.0 更新時，可使用移轉工具將設定從舊版 App 帶到新版。[移轉說明](README.md#upgrading-from-v010)
+## 開發
 
 詳細的[建置與執行](README.md#build-and-run)、[測試](README.md#tests)和[在地化](README.md#localization)說明請參閱英文 README。
